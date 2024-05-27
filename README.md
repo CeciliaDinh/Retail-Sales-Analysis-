@@ -34,8 +34,7 @@ The Retail Sales dataset provides comprehensive information on sales transaction
 1. Create interactive filters and slicers to allow users to explore data dynamically and drill down into specific regions or product categories.
 2. Develop trend analysis charts to visualize sales performance over time, identify seasonality patterns, and forecast future sales trends.
 3. Incorporate KPIs (Key Performance Indicators) to track metrics such as sales growth, profit margin, and customer retention rate.
-
-## GOALS: - I thought of we can we get from doing all of this? 
+## CHARTS 
 - Identify top-performing product categories and subcategories based on sales revenue and profit margins.
 - Analyze sales performance across different regions (cities and states) to identify high-potential markets and target demographics.
 - Evaluate the effectiveness of discount strategies on sales and profitability.
