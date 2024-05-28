@@ -173,7 +173,15 @@ Second_Class= Case when 'Ship_Mode'='Second Class' Then 1 else 0 end,
 Standard_Class= Case when 'Ship_Mode'='Standard Class' Then 1 else 0 end,
 Same_Day= Case when 'Ship_Mode'='Same Day' Then 1 else 0 end;
 ALTER TABLE sales_staging2
-DROP COLUMN `Ship Mode`;
+DROP COLUMN Ship_Mode;
 ALTER TABLE sales_staging2
 DROP COLUMN  row_num;
 select * from sales_staging2
+-- i assume that negative values are false inputs because they sell pretty much on that rows and the discount was low-- 
+UPDATE sales_staging2
+SET Profit = ABS(Profit)
+WHERE Profit < 0;
+select * from sales_staging2
+-- export the clean data-- 
+SELECT *
+FROM sales_staging2;

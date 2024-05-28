@@ -1,0 +1,1001 @@
+Segment,City,State,Region,Category,Sub_Category,Sales,Quantity,Discount,Profit,First_Class,Second_Class,Standard_Class,Same_Day
+Consumer,Aberdeen,"South Dakota",Central,"Office Supplies",Supplies,25.5,3,0,6.63,0,0,0,0
+Consumer,Abilene,Texas,Central,"Office Supplies",Appliances,1.392,2,0.8,3.7584,0,0,0,0
+Consumer,Akron,Ohio,East,Furniture,Furnishings,149.232,3,0.2,3.7308,0,0,0,0
+Corporate,Akron,Ohio,East,Furniture,Tables,284.364,2,0.4,75.8304,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Storage,221.024,2,0.2,55.256,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Art,8.256,4,0.2,0.6192,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Art,14.352,3,0.2,0.897,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Paper,11.52,4,0.2,3.744,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Paper,15.936,4,0.2,5.7768,0,0,0,0
+"Home Office",Akron,Ohio,East,"Office Supplies",Fasteners,17.184,6,0.2,6.2292,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Paper,21.744,3,0.2,6.795,0,0,0,0
+Corporate,Akron,Ohio,East,"Office Supplies",Paper,85.056,3,0.2,28.7064,0,0,0,0
+Corporate,Akron,Ohio,East,"Office Supplies",Storage,665.408,2,0.2,66.5408,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Binders,25.56,5,0.7,20.448,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Binders,14.952,2,0.7,11.9616,0,0,0,0
+"Home Office",Akron,Ohio,East,"Office Supplies",Binders,5.742,3,0.7,4.5936,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Binders,4.368,2,0.7,3.0576,0,0,0,0
+Consumer,Akron,Ohio,East,"Office Supplies",Binders,2.286,2,0.7,1.6764,0,0,0,0
+Consumer,Akron,Ohio,East,Technology,Accessories,71.976,3,0.2,0.8997,0,0,0,0
+Corporate,Akron,Ohio,East,Technology,Accessories,279.96,5,0.2,48.993,0,0,0,0
+Consumer,Akron,Ohio,East,Technology,Phones,323.982,3,0.4,80.9955,0,0,0,0
+Corporate,Akron,Ohio,East,Technology,Phones,259.896,2,0.4,56.3108,0,0,0,0
+Corporate,Akron,Ohio,East,Technology,Phones,247.188,2,0.4,49.4376,0,0,0,0
+Consumer,Albuquerque,"New Mexico",West,"Office Supplies",Paper,4.28,1,0,1.926,0,0,0,0
+Consumer,Albuquerque,"New Mexico",West,"Office Supplies",Storage,33.29,1,0,7.9896,0,0,0,0
+Corporate,Albuquerque,"New Mexico",West,"Office Supplies",Paper,27.18,3,0,12.231,0,0,0,0
+"Home Office",Albuquerque,"New Mexico",West,"Office Supplies",Paper,45.36,7,0,21.7728,0,0,0,0
+"Home Office",Albuquerque,"New Mexico",West,"Office Supplies",Storage,90.8,8,0,25.424,0,0,0,0
+Consumer,Albuquerque,"New Mexico",West,"Office Supplies",Storage,118.25,5,0,34.2925,0,0,0,0
+Corporate,Albuquerque,"New Mexico",West,"Office Supplies",Art,255.85,7,0,112.574,0,0,0,0
+"Home Office",Albuquerque,"New Mexico",West,"Office Supplies",Paper,288.24,6,0,138.3552,0,0,0,0
+Corporate,Albuquerque,"New Mexico",West,"Office Supplies",Binders,79.872,3,0.2,29.952,0,0,0,0
+"Home Office",Albuquerque,"New Mexico",West,Technology,Accessories,214.95,5,0,88.1295,0,0,0,0
+Corporate,Albuquerque,"New Mexico",West,Technology,Accessories,595,5,0,95.2,0,0,0,0
+Consumer,Albuquerque,"New Mexico",West,Technology,Phones,23.976,3,0.2,5.6943,0,0,0,0
+"Home Office",Albuquerque,"New Mexico",West,Technology,Phones,302.376,3,0.2,22.6782,0,0,0,0
+"Home Office",Albuquerque,"New Mexico",West,Technology,Phones,140.736,8,0.2,49.2576,0,0,0,0
+"Home Office",Alexandria,Virginia,South,Furniture,Furnishings,12.42,3,0,4.4712,0,0,0,0
+"Home Office",Alexandria,Virginia,South,Furniture,Furnishings,62.82,3,0,30.7818,0,0,0,0
+"Home Office",Alexandria,Virginia,South,"Office Supplies",Storage,489.92,8,0,0,0,0,0,0
+Corporate,Alexandria,Virginia,South,"Office Supplies",Paper,12.96,2,0,6.3504,0,0,0,0
+Corporate,Alexandria,Virginia,South,"Office Supplies",Art,22.96,7,0,6.6584,0,0,0,0
+Consumer,Alexandria,Virginia,South,"Office Supplies",Storage,24.56,2,0,6.8768,0,0,0,0
+Corporate,Alexandria,Virginia,South,"Office Supplies",Art,22.96,7,0,7.5768,0,0,0,0
+"Home Office",Alexandria,Virginia,South,"Office Supplies",Paper,16.68,2,0,8.34,0,0,0,0
+"Home Office",Alexandria,Virginia,South,"Office Supplies",Paper,19.44,3,0,9.3312,0,0,0,0
+Consumer,Alexandria,Virginia,South,"Office Supplies",Storage,81.2,5,0,12.18,0,0,0,0
+Consumer,Alexandria,Virginia,South,"Office Supplies",Fasteners,25.06,7,0,12.53,0,0,0,0
+Corporate,Alexandria,Virginia,South,"Office Supplies",Supplies,4164.05,5,0,83.281,0,0,0,0
+Corporate,Alexandria,Virginia,South,Technology,Phones,28.99,1,0,8.4071,0,0,0,0
+"Home Office",Alexandria,Virginia,South,Technology,Phones,187.98,2,0,52.6344,0,0,0,0
+Consumer,Allen,Texas,Central,Furniture,Tables,244.006,2,0.3,31.3722,0,0,0,0
+Consumer,Allen,Texas,Central,"Office Supplies",Paper,15.936,4,0.2,5.3784,0,0,0,0
+Consumer,Allen,Texas,Central,"Office Supplies",Binders,8.784,4,0.8,13.6152,0,0,0,0
+Consumer,Allen,Texas,Central,Technology,Accessories,21.48,3,0.2,0.2685,0,0,0,0
+Consumer,Allentown,Pennsylvania,East,Furniture,Furnishings,11.648,2,0.2,3.3488,0,0,0,0
+"Home Office",Allentown,Pennsylvania,East,"Office Supplies",Storage,663.072,6,0.2,165.768,0,0,0,0
+"Home Office",Allentown,Pennsylvania,East,"Office Supplies",Supplies,3.488,2,0.2,0.6976,0,0,0,0
+Consumer,Allentown,Pennsylvania,East,"Office Supplies",Art,4.16,2,0.2,0.364,0,0,0,0
+"Home Office",Allentown,Pennsylvania,East,"Office Supplies",Paper,49.568,2,0.2,15.49,0,0,0,0
+"Home Office",Allentown,Pennsylvania,East,"Office Supplies",Binders,99.588,2,0.7,82.99,0,0,0,0
+"Home Office",Allentown,Pennsylvania,East,Technology,Accessories,21.728,4,0.2,3.8024,0,0,0,0
+Corporate,Altoona,Pennsylvania,East,"Office Supplies",Art,16.032,6,0.2,2.2044,0,0,0,0
+Corporate,Altoona,Pennsylvania,East,"Office Supplies",Binders,4.419,3,0.7,3.3879,0,0,0,0
+Consumer,Amarillo,Texas,Central,Furniture,Chairs,2453.43,5,0.3,350.49,0,0,0,0
+Consumer,Amarillo,Texas,Central,Furniture,Chairs,366.744,4,0.3,110.0232,0,0,0,0
+Corporate,Amarillo,Texas,Central,Furniture,Bookcases,205.3328,2,0.32,36.2352,0,0,0,0
+Consumer,Amarillo,Texas,Central,Furniture,Furnishings,23.076,3,0.6,10.9611,0,0,0,0
+Corporate,Amarillo,Texas,Central,"Office Supplies",Paper,19.648,2,0.2,6.6312,0,0,0,0
+Consumer,Amarillo,Texas,Central,"Office Supplies",Paper,25.92,5,0.2,9.072,0,0,0,0
+Consumer,Amarillo,Texas,Central,"Office Supplies",Paper,28.352,1,0.2,9.5688,0,0,0,0
+Consumer,Amarillo,Texas,Central,Technology,Accessories,79.512,3,0.2,20.8719,0,0,0,0
+Consumer,Amarillo,Texas,Central,Technology,Phones,307.168,4,0.2,30.7168,0,0,0,0
+Consumer,Amarillo,Texas,Central,Technology,Accessories,263.88,3,0.2,42.8805,0,0,0,0
+Corporate,Anaheim,California,West,Furniture,Furnishings,44.67,3,0,12.0609,0,0,0,0
+Corporate,Anaheim,California,West,Furniture,Furnishings,207.35,5,0,24.882,0,0,0,0
+Corporate,Anaheim,California,West,Furniture,Furnishings,101.12,8,0,37.4144,0,0,0,0
+Corporate,Anaheim,California,West,Furniture,Furnishings,131.88,7,0,55.3896,0,0,0,0
+Consumer,Anaheim,California,West,Furniture,Chairs,363.92,5,0.2,31.843,0,0,0,0
+Corporate,Anaheim,California,West,Furniture,Chairs,717.72,3,0.2,71.772,0,0,0,0
+Corporate,Anaheim,California,West,Furniture,Tables,1293.488,7,0.2,80.843,0,0,0,0
+Consumer,Anaheim,California,West,Furniture,Tables,892.136,7,0.2,111.517,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Art,3.36,2,0,0.8736,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Storage,50.22,3,0,2.0088,0,0,0,0
+Corporate,Anaheim,California,West,"Office Supplies",Supplies,13.98,1,0,3.6348,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Art,23.32,2,0,6.0632,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Supplies,51.15,5,0,13.299,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Paper,30.98,1,0,13.941,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Appliances,83.42,2,0,24.1918,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Storage,998.82,9,0,29.9646,0,0,0,0
+Corporate,Anaheim,California,West,"Office Supplies",Paper,209.7,2,0,100.656,0,0,0,0
+Corporate,Anaheim,California,West,"Office Supplies",Storage,481.32,4,0,125.1432,0,0,0,0
+Corporate,Anaheim,California,West,"Office Supplies",Storage,1295.78,2,0,310.9872,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Binders,5.872,2,0.2,2.1286,0,0,0,0
+Corporate,Anaheim,California,West,"Office Supplies",Binders,25.032,3,0.2,7.8225,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Binders,35.808,3,0.2,11.19,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Binders,122.688,9,0.2,39.8736,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Binders,171.2,5,0.2,64.2,0,0,0,0
+Consumer,Anaheim,California,West,"Office Supplies",Binders,209.6,5,0.2,68.12,0,0,0,0
+Consumer,Anaheim,California,West,Technology,Accessories,119.96,4,0,25.1916,0,0,0,0
+Consumer,Anaheim,California,West,Technology,Phones,302.376,3,0.2,22.6782,0,0,0,0
+Consumer,Andover,Massachusetts,East,Furniture,Chairs,354.9,5,0,88.725,0,0,0,0
+Consumer,Andover,Massachusetts,East,"Office Supplies",Storage,11.21,1,0,3.363,0,0,0,0
+Consumer,Andover,Massachusetts,East,"Office Supplies",Paper,17.94,3,0,8.7906,0,0,0,0
+Consumer,Andover,Massachusetts,East,"Office Supplies",Binders,51.8,4,0,23.31,0,0,0,0
+Corporate,"Ann Arbor",Michigan,Central,"Office Supplies",Envelopes,57.96,7,0,27.2412,0,0,0,0
+"Home Office","Ann Arbor",Michigan,Central,"Office Supplies",Binders,152.8,5,0,76.4,0,0,0,0
+Corporate,"Ann Arbor",Michigan,Central,"Office Supplies",Appliances,29.403,3,0.1,5.2272,0,0,0,0
+Corporate,"Ann Arbor",Michigan,Central,Technology,Phones,29.16,3,0,8.4564,0,0,0,0
+Corporate,"Ann Arbor",Michigan,Central,Technology,Accessories,619.95,5,0,111.591,0,0,0,0
+Corporate,Antioch,California,West,"Office Supplies",Paper,19.44,3,0,9.3312,0,0,0,0
+Consumer,Apopka,Florida,South,Furniture,Furnishings,129.888,6,0.2,12.9888,0,0,0,0
+Consumer,Apopka,Florida,South,"Office Supplies",Fasteners,14.32,5,0.2,5.191,0,0,0,0
+Consumer,Apopka,Florida,South,"Office Supplies",Envelopes,48.944,7,0.2,16.5186,0,0,0,0
+"Home Office",Apopka,Florida,South,"Office Supplies",Appliances,671.544,3,0.2,50.3658,0,0,0,0
+Corporate,Apopka,Florida,South,"Office Supplies",Binders,27.018,6,0.7,21.6144,0,0,0,0
+"Home Office",Apopka,Florida,South,"Office Supplies",Binders,9.888,2,0.7,6.9216,0,0,0,0
+Corporate,Apopka,Florida,South,"Office Supplies",Binders,2.952,2,0.7,2.1648,0,0,0,0
+Corporate,"Apple Valley",California,West,Furniture,Bookcases,1194.165,5,0.15,210.735,0,0,0,0
+Consumer,"Apple Valley",California,West,Furniture,Chairs,563.92,5,0.2,7.049,0,0,0,0
+Corporate,"Apple Valley",California,West,"Office Supplies",Storage,10.56,2,0,0,0,0,0,0
+"Home Office","Apple Valley",California,West,"Office Supplies",Paper,12.96,2,0,6.2208,0,0,0,0
+Corporate,"Apple Valley",California,West,"Office Supplies",Paper,32.4,5,0,15.552,0,0,0,0
+Corporate,"Apple Valley",California,West,"Office Supplies",Envelopes,57.9,5,0,28.95,0,0,0,0
+"Home Office","Apple Valley",California,West,Technology,Phones,43.176,3,0.2,15.1116,0,0,0,0
+Consumer,"Apple Valley",Minnesota,Central,"Office Supplies",Art,8.64,3,0,2.5056,0,0,0,0
+Consumer,"Apple Valley",Minnesota,Central,"Office Supplies",Storage,129.3,2,0,6.465,0,0,0,0
+"Home Office",Appleton,Wisconsin,Central,"Office Supplies",Labels,21.56,7,0,10.3488,0,0,0,0
+Consumer,Appleton,Wisconsin,Central,Technology,Accessories,1649.75,5,0,544.4175,0,0,0,0
+Corporate,Arlington,Texas,Central,Furniture,Tables,1218.735,5,0.3,121.8735,0,0,0,0
+Consumer,Arlington,Texas,Central,Furniture,Tables,918.785,5,0.3,118.1295,0,0,0,0
+Corporate,Arlington,Texas,Central,Furniture,Chairs,213.43,5,0.3,39.637,0,0,0,0
+Corporate,Arlington,Texas,Central,Furniture,Furnishings,21.184,2,0.6,11.6512,0,0,0,0
+Corporate,Arlington,Texas,Central,Furniture,Furnishings,12.544,7,0.6,9.0944,0,0,0,0
+Corporate,Arlington,Texas,Central,Furniture,Furnishings,6.096,3,0.6,3.9624,0,0,0,0
+Consumer,Arlington,Texas,Central,"Office Supplies",Storage,47.584,2,0.2,2.974,0,0,0,0
+Consumer,Arlington,Texas,Central,"Office Supplies",Storage,12.624,2,0.2,2.5248,0,0,0,0
+Consumer,Arlington,Texas,Central,"Office Supplies",Art,8.928,2,0.2,0.558,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Labels,2.52,1,0.2,0.882,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Labels,5.904,2,0.2,1.9926,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Art,47.616,3,0.2,3.5712,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Paper,15.696,3,0.2,5.1012,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Paper,20.736,4,0.2,7.2576,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Fasteners,45.92,5,0.2,15.498,0,0,0,0
+Consumer,Arlington,Texas,Central,"Office Supplies",Storage,999.432,7,0.2,124.929,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Appliances,33.62,5,0.8,90.774,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Binders,42.616,7,0.8,68.1856,0,0,0,0
+"Home Office",Arlington,Texas,Central,"Office Supplies",Binders,11.646,9,0.8,17.469,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Binders,8.272,4,0.8,13.6488,0,0,0,0
+Consumer,Arlington,Texas,Central,"Office Supplies",Binders,2.724,3,0.8,4.2222,0,0,0,0
+Corporate,Arlington,Texas,Central,"Office Supplies",Binders,1.344,4,0.8,2.1504,0,0,0,0
+Corporate,Arlington,Texas,Central,Technology,Accessories,165.6,3,0.2,6.21,0,0,0,0
+Corporate,Arlington,Texas,Central,Technology,Accessories,24.672,3,0.2,0,0,0,0,0
+Corporate,Arlington,Texas,Central,Technology,Phones,863.64,9,0.2,107.955,0,0,0,0
+Corporate,Arlington,Texas,Central,Technology,Copiers,319.984,2,0.2,107.9946,0,0,0,0
+"Home Office",Arlington,Virginia,South,Furniture,Bookcases,61.96,2,0,4.3372,0,0,0,0
+Consumer,Arlington,Virginia,South,Furniture,Furnishings,18.69,7,0,7.1022,0,0,0,0
+"Home Office",Arlington,Virginia,South,Furniture,Furnishings,47.98,2,0,11.0354,0,0,0,0
+"Home Office",Arlington,Virginia,South,Furniture,Furnishings,61.1,5,0,18.33,0,0,0,0
+Consumer,Arlington,Virginia,South,Furniture,Furnishings,60.84,3,0,19.4688,0,0,0,0
+Consumer,Arlington,Virginia,South,Furniture,Bookcases,359.97,3,0,79.1934,0,0,0,0
+Consumer,Arlington,Virginia,South,Furniture,Chairs,641.96,2,0,179.7488,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Art,4.89,1,0,2.0049,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Art,7.7,2,0,3.157,0,0,0,0
+"Home Office",Arlington,Virginia,South,"Office Supplies",Binders,10.44,1,0,4.8024,0,0,0,0
+Corporate,Arlington,Virginia,South,"Office Supplies",Binders,11.88,2,0,5.346,0,0,0,0
+Corporate,Arlington,Virginia,South,"Office Supplies",Storage,31.4,2,0,7.85,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Appliances,36.27,3,0,10.881,0,0,0,0
+Corporate,Arlington,Virginia,South,"Office Supplies",Envelopes,26.55,9,0,12.744,0,0,0,0
+Corporate,Arlington,Virginia,South,"Office Supplies",Storage,56.45,5,0,14.677,0,0,0,0
+"Home Office",Arlington,Virginia,South,"Office Supplies",Paper,32.4,5,0,15.552,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Binders,33.02,2,0,15.8496,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Binders,34.6,2,0,16.608,0,0,0,0
+Corporate,Arlington,Virginia,South,"Office Supplies",Paper,35.44,1,0,16.6568,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Art,54.66,6,0,18.0378,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Binders,36.4,8,0,18.2,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Binders,58.05,3,0,26.703,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Storage,450.04,2,0,58.5052,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Paper,154.9,5,0,69.705,0,0,0,0
+Consumer,Arlington,Virginia,South,"Office Supplies",Storage,544.38,3,0,157.8702,0,0,0,0
+"Home Office",Arlington,Virginia,South,Technology,Accessories,47.79,3,0,16.2486,0,0,0,0
+Corporate,Arlington,Virginia,South,Technology,Accessories,111.98,2,0,26.8752,0,0,0,0
+Consumer,Arlington,Virginia,South,Technology,Phones,173.94,6,0,50.4426,0,0,0,0
+Consumer,Arlington,Virginia,South,Technology,Phones,467.97,3,0,140.391,0,0,0,0
+Consumer,Arlington,Virginia,South,Technology,Machines,8749.95,5,0,2799.984,0,0,0,0
+Consumer,"Arlington Heights",Illinois,Central,"Office Supplies",Art,14.112,6,0.2,1.2348,0,0,0,0
+Corporate,Arvada,Colorado,West,Furniture,Furnishings,15.232,1,0.2,1.7136,0,0,0,0
+Corporate,Arvada,Colorado,West,Furniture,Furnishings,15.136,4,0.2,3.5948,0,0,0,0
+Corporate,Arvada,Colorado,West,Furniture,Chairs,466.768,2,0.2,52.5114,0,0,0,0
+Corporate,Arvada,Colorado,West,"Office Supplies",Labels,6.264,3,0.2,2.0358,0,0,0,0
+Corporate,Asheville,"North Carolina",South,"Office Supplies",Storage,16.272,1,0.2,3.8646,0,0,0,0
+Consumer,Asheville,"North Carolina",South,"Office Supplies",Art,8.76,5,0.2,0.7665,0,0,0,0
+Corporate,Asheville,"North Carolina",South,"Office Supplies",Art,7.872,3,0.2,0.8856,0,0,0,0
+Consumer,Asheville,"North Carolina",South,"Office Supplies",Art,15.92,5,0.2,2.786,0,0,0,0
+Consumer,Asheville,"North Carolina",South,"Office Supplies",Appliances,43.584,1,0.2,4.3584,0,0,0,0
+Corporate,Asheville,"North Carolina",South,"Office Supplies",Binders,19.008,8,0.7,12.672,0,0,0,0
+Consumer,Asheville,"North Carolina",South,Technology,Phones,1363.96,5,0.2,85.2475,0,0,0,0
+Consumer,Athens,Georgia,South,Furniture,Furnishings,186.54,3,0,41.0388,0,0,0,0
+Corporate,Athens,Georgia,South,"Office Supplies",Art,12.78,3,0,5.2398,0,0,0,0
+Consumer,Athens,Georgia,South,"Office Supplies",Paper,15.84,3,0,7.128,0,0,0,0
+Consumer,Athens,Georgia,South,"Office Supplies",Labels,14.73,3,0,7.2177,0,0,0,0
+Consumer,Athens,Georgia,South,"Office Supplies",Appliances,154.9,5,0,40.274,0,0,0,0
+Corporate,Athens,Georgia,South,Technology,Accessories,79.99,1,0,28.7964,0,0,0,0
+Corporate,Athens,Georgia,South,Technology,Phones,206.1,5,0,55.647,0,0,0,0
+Consumer,Athens,Georgia,South,Technology,Phones,1049.93,7,0,293.9804,0,0,0,0
+Consumer,Atlanta,Georgia,South,Furniture,Furnishings,25.71,3,0,9.2556,0,0,0,0
+Consumer,Atlanta,Georgia,South,Furniture,Furnishings,129.93,3,0,12.993,0,0,0,0
+Consumer,Atlanta,Georgia,South,Furniture,Chairs,67.88,2,0,18.3276,0,0,0,0
+Consumer,Atlanta,Georgia,South,Furniture,Bookcases,1628.82,9,0,374.6286,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Art,2.74,1,0,0.7398,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Binders,2.78,1,0,1.3622,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Art,8.34,3,0,2.1684,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,5.28,1,0,2.376,0,0,0,0
+Corporate,Atlanta,Georgia,South,"Office Supplies",Art,12.84,3,0,3.7236,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Binders,8.26,2,0,3.8822,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Labels,8.64,3,0,4.2336,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Art,13.89,3,0,4.5837,0,0,0,0
+Corporate,Atlanta,Georgia,South,"Office Supplies",Paper,9.96,2,0,4.8804,0,0,0,0
+Corporate,Atlanta,Georgia,South,"Office Supplies",Labels,12.39,3,0,5.6994,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Appliances,25.86,3,0,6.7236,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Binders,15.92,4,0,7.4824,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,17.94,3,0,8.7906,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,21.4,5,0,9.63,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Storage,46.74,3,0,11.685,0,0,0,0
+Corporate,Atlanta,Georgia,South,"Office Supplies",Binders,34.54,1,0,17.27,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,48.87,9,0,23.9463,0,0,0,0
+Corporate,Atlanta,Georgia,South,"Office Supplies",Binders,64.12,4,0,30.7776,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,69.93,7,0,31.4685,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,97.88,2,0,48.94,0,0,0,0
+"Home Office",Atlanta,Georgia,South,"Office Supplies",Envelopes,125.36,8,0,58.9192,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,195.64,4,0,91.9508,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,193.8,5,0,94.962,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Paper,286.93,7,0,140.5957,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Appliances,542.94,3,0,152.0232,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Storage,1350.12,6,0,175.5156,0,0,0,0
+"Home Office",Atlanta,Georgia,South,"Office Supplies",Binders,1270.99,1,0,635.495,0,0,0,0
+Consumer,Atlanta,Georgia,South,"Office Supplies",Binders,6354.95,5,0,3177.475,0,0,0,0
+Consumer,Atlanta,Georgia,South,Technology,Accessories,67.8,4,0,4.068,0,0,0,0
+Consumer,Atlanta,Georgia,South,Technology,Phones,135.95,1,0,39.4255,0,0,0,0
+Consumer,Atlanta,Georgia,South,Technology,Accessories,251.91,9,0,47.8629,0,0,0,0
+Consumer,Atlanta,Georgia,South,Technology,Phones,377.97,3,0,98.2722,0,0,0,0
+Consumer,Atlanta,Georgia,South,Technology,Accessories,499.98,2,0,114.9954,0,0,0,0
+Corporate,Atlanta,Georgia,South,Technology,Copiers,2999.95,5,0,1439.976,0,0,0,0
+Corporate,"Atlantic City","New Jersey",East,"Office Supplies",Envelopes,23.36,2,0,11.68,0,0,0,0
+Consumer,Auburn,Alabama,South,Furniture,Chairs,350.98,1,0,84.2352,0,0,0,0
+"Home Office",Auburn,Alabama,South,"Office Supplies",Art,3.76,2,0,1.0904,0,0,0,0
+Consumer,Auburn,Alabama,South,"Office Supplies",Envelopes,7.38,2,0,3.3948,0,0,0,0
+Consumer,Auburn,Alabama,South,"Office Supplies",Paper,13.08,2,0,6.0168,0,0,0,0
+Consumer,Auburn,Alabama,South,"Office Supplies",Storage,900.08,4,0,117.0104,0,0,0,0
+Consumer,Auburn,Alabama,South,"Office Supplies",Labels,491.55,5,0,240.8595,0,0,0,0
+Corporate,Auburn,"New York",East,Furniture,Furnishings,520.05,5,0,72.807,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Fasteners,1.24,1,0,0.5828,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Art,9.84,3,0,2.8536,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Art,9.26,2,0,3.0558,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Storage,105.98,2,0,4.2392,0,0,0,0
+Corporate,Auburn,"New York",East,"Office Supplies",Art,17.97,3,0,5.2113,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Art,30.48,3,0,7.9248,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Storage,161.94,3,0,9.7164,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Labels,20.7,2,0,9.936,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Envelopes,27.18,1,0,12.7746,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Fasteners,29.61,9,0,13.3245,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Paper,28.9,5,0,14.161,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Art,59.52,3,0,15.4752,0,0,0,0
+Corporate,Auburn,"New York",East,"Office Supplies",Paper,46.96,8,0,22.5408,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Art,263.88,6,0,71.2476,0,0,0,0
+Consumer,Auburn,"New York",East,"Office Supplies",Binders,15.528,3,0.2,5.823,0,0,0,0
+Consumer,Auburn,"New York",East,Technology,Phones,35.12,4,0,9.1312,0,0,0,0
+"Home Office",Auburn,Washington,West,Furniture,Furnishings,4.18,1,0,1.5048,0,0,0,0
+Consumer,Aurora,Colorado,West,Furniture,Furnishings,102.36,3,0.2,3.8385,0,0,0,0
+"Home Office",Aurora,Colorado,West,Furniture,Furnishings,32.776,1,0.2,3.2776,0,0,0,0
+Corporate,Aurora,Colorado,West,Furniture,Furnishings,24.64,4,0.2,4.004,0,0,0,0
+Corporate,Aurora,Colorado,West,Furniture,Furnishings,24.96,3,0.2,4.368,0,0,0,0
+"Home Office",Aurora,Colorado,West,Furniture,Furnishings,21.44,2,0.2,7.504,0,0,0,0
+Corporate,Aurora,Colorado,West,Furniture,Tables,727.45,5,0.5,465.568,0,0,0,0
+Consumer,Aurora,Colorado,West,Furniture,Bookcases,145.764,6,0.7,247.7988,0,0,0,0
+"Home Office",Aurora,Colorado,West,"Office Supplies",Storage,511.056,9,0.2,95.823,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Storage,243.384,3,0.2,51.7191,0,0,0,0
+"Home Office",Aurora,Colorado,West,"Office Supplies",Storage,147.184,2,0.2,29.4368,0,0,0,0
+"Home Office",Aurora,Colorado,West,"Office Supplies",Supplies,5.84,2,0.2,0.73,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Fasteners,4.512,3,0.2,0.846,0,0,0,0
+"Home Office",Aurora,Colorado,West,"Office Supplies",Art,14.576,2,0.2,2.3686,0,0,0,0
+Corporate,Aurora,Colorado,West,"Office Supplies",Appliances,32.432,2,0.2,3.2432,0,0,0,0
+"Home Office",Aurora,Colorado,West,"Office Supplies",Appliances,43.56,5,0.2,3.267,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Envelopes,12.536,1,0.2,4.2309,0,0,0,0
+"Home Office",Aurora,Colorado,West,"Office Supplies",Paper,14.352,3,0.2,5.2026,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Appliances,122.328,3,0.2,12.2328,0,0,0,0
+Corporate,Aurora,Colorado,West,"Office Supplies",Storage,168.624,9,0.2,14.7546,0,0,0,0
+Corporate,Aurora,Colorado,West,"Office Supplies",Storage,139.424,4,0.2,17.428,0,0,0,0
+"Home Office",Aurora,Colorado,West,"Office Supplies",Appliances,209.792,2,0.2,26.224,0,0,0,0
+Corporate,Aurora,Colorado,West,"Office Supplies",Paper,177.536,4,0.2,62.1376,0,0,0,0
+"Home Office",Aurora,Colorado,West,"Office Supplies",Binders,76.776,4,0.7,58.8616,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Binders,36.882,3,0.7,25.8174,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Binders,18.882,3,0.7,13.8468,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Binders,9.612,6,0.7,7.3692,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Binders,4.896,3,0.7,3.4272,0,0,0,0
+Consumer,Aurora,Colorado,West,"Office Supplies",Binders,1.08,2,0.7,0.792,0,0,0,0
+Consumer,Aurora,Colorado,West,Technology,Accessories,238.896,6,0.2,26.8758,0,0,0,0
+Corporate,Aurora,Colorado,West,Technology,Accessories,169.064,7,0.2,14.7931,0,0,0,0
+"Home Office",Aurora,Colorado,West,Technology,Accessories,54.384,2,0.2,1.3596,0,0,0,0
+Consumer,Aurora,Colorado,West,Technology,Phones,125.944,7,0.2,15.743,0,0,0,0
+Consumer,Aurora,Colorado,West,Technology,Accessories,119.8,5,0.2,29.95,0,0,0,0
+Consumer,Aurora,Colorado,West,Technology,Phones,300.768,4,0.2,30.0768,0,0,0,0
+"Home Office",Aurora,Illinois,Central,Furniture,Chairs,701.372,2,0.3,50.098,0,0,0,0
+Consumer,Aurora,Illinois,Central,Furniture,Chairs,239.358,3,0.3,47.8716,0,0,0,0
+Consumer,Aurora,Illinois,Central,Furniture,Chairs,128.058,3,0.3,23.7822,0,0,0,0
+Consumer,Aurora,Illinois,Central,Furniture,Chairs,520.464,2,0.3,14.8704,0,0,0,0
+Corporate,Aurora,Illinois,Central,Furniture,Chairs,253.372,2,0.3,14.4784,0,0,0,0
+"Home Office",Aurora,Illinois,Central,Furniture,Tables,796.425,7,0.5,525.6405,0,0,0,0
+Corporate,Aurora,Illinois,Central,Furniture,Tables,652.45,5,0.5,430.617,0,0,0,0
+Consumer,Aurora,Illinois,Central,Furniture,Tables,268.935,3,0.5,209.7693,0,0,0,0
+Consumer,Aurora,Illinois,Central,Furniture,Tables,69.375,1,0.5,47.175,0,0,0,0
+Corporate,Aurora,Illinois,Central,Furniture,Tables,66.645,3,0.5,42.6528,0,0,0,0
+"Home Office",Aurora,Illinois,Central,Furniture,Furnishings,242.176,4,0.6,302.72,0,0,0,0
+"Home Office",Aurora,Illinois,Central,Furniture,Furnishings,83.952,3,0.6,90.2484,0,0,0,0
+Consumer,Aurora,Illinois,Central,Furniture,Furnishings,77.72,1,0.6,66.062,0,0,0,0
+Corporate,Aurora,Illinois,Central,Furniture,Furnishings,60.288,8,0.6,27.1296,0,0,0,0
+Consumer,Aurora,Illinois,Central,"Office Supplies",Storage,221.024,2,0.2,55.256,0,0,0,0
+Corporate,Aurora,Illinois,Central,"Office Supplies",Fasteners,2.632,1,0.2,0.8225,0,0,0,0
+"Home Office",Aurora,Illinois,Central,"Office Supplies",Storage,23.952,2,0.2,2.3952,0,0,0,0
+Consumer,Aurora,Illinois,Central,"Office Supplies",Supplies,31.68,4,0.2,2.772,0,0,0,0
+Consumer,Aurora,Illinois,Central,"Office Supplies",Art,9.344,2,0.2,3.1536,0,0,0,0
+Consumer,Aurora,Illinois,Central,"Office Supplies",Paper,10.368,2,0.2,3.6288,0,0,0,0
+"Home Office",Aurora,Illinois,Central,"Office Supplies",Art,36.784,2,0.2,3.6784,0,0,0,0
+Corporate,Aurora,Illinois,Central,"Office Supplies",Paper,23.688,9,0.2,7.6986,0,0,0,0
+"Home Office",Aurora,Illinois,Central,"Office Supplies",Storage,298.464,6,0.2,26.1156,0,0,0,0
+Consumer,Aurora,Illinois,Central,"Office Supplies",Paper,186.048,6,0.2,67.4424,0,0,0,0
+Consumer,Aurora,Illinois,Central,"Office Supplies",Envelopes,268.576,4,0.2,90.6444,0,0,0,0
+"Home Office",Aurora,Illinois,Central,"Office Supplies",Appliances,70.97,5,0.8,191.619,0,0,0,0
+Corporate,Aurora,Illinois,Central,"Office Supplies",Binders,94.192,7,0.8,164.836,0,0,0,0
+"Home Office",Aurora,Illinois,Central,"Office Supplies",Binders,29.932,7,0.8,46.3946,0,0,0,0
+Corporate,Aurora,Illinois,Central,"Office Supplies",Binders,2.864,4,0.8,4.5824,0,0,0,0
+"Home Office",Aurora,Illinois,Central,"Office Supplies",Binders,2.308,2,0.8,3.462,0,0,0,0
+"Home Office",Aurora,Illinois,Central,Technology,Accessories,50.12,7,0.2,0.6265,0,0,0,0
+Corporate,Aurora,Illinois,Central,Technology,Phones,7.992,1,0.2,2.5974,0,0,0,0
+"Home Office",Aurora,Illinois,Central,Technology,Phones,38.272,4,0.2,3.8272,0,0,0,0
+Consumer,Aurora,Illinois,Central,Technology,Phones,2003.168,4,0.2,250.396,0,0,0,0
+Corporate,Austin,Texas,Central,Furniture,Chairs,347.802,7,0.3,24.843,0,0,0,0
+Corporate,Austin,Texas,Central,Furniture,Chairs,179.886,1,0.3,2.5698,0,0,0,0
+"Home Office",Austin,Texas,Central,Furniture,Furnishings,7.996,1,0.6,6.9965,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Storage,259.136,4,0.2,58.3056,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Storage,540.048,3,0.2,47.2542,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Storage,152.688,2,0.2,26.7204,0,0,0,0
+"Home Office",Austin,Texas,Central,"Office Supplies",Storage,74.416,2,0.2,14.8832,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Storage,88.8,4,0.2,2.22,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Supplies,5.888,2,0.2,1.3248,0,0,0,0
+Corporate,Austin,Texas,Central,"Office Supplies",Fasteners,2.896,2,0.2,0.4706,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Fasteners,3.488,2,0.2,0.5668,0,0,0,0
+"Home Office",Austin,Texas,Central,"Office Supplies",Art,5.248,2,0.2,0.5904,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Storage,13.72,1,0.2,1.2005,0,0,0,0
+"Home Office",Austin,Texas,Central,"Office Supplies",Paper,6.848,2,0.2,2.14,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Paper,10.368,2,0.2,3.6288,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Paper,16.056,3,0.2,5.8203,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Envelopes,17.568,2,0.2,6.3684,0,0,0,0
+Corporate,Austin,Texas,Central,"Office Supplies",Paper,36.288,7,0.2,12.7008,0,0,0,0
+Corporate,Austin,Texas,Central,"Office Supplies",Paper,76.64,2,0.2,26.824,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Paper,223.056,9,0.2,69.705,0,0,0,0
+Corporate,Austin,Texas,Central,"Office Supplies",Storage,856.656,6,0.2,107.082,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Paper,335.52,4,0.2,117.432,0,0,0,0
+Corporate,Austin,Texas,Central,"Office Supplies",Appliances,48.784,4,0.8,131.7168,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Binders,32.784,4,0.8,52.4544,0,0,0,0
+Corporate,Austin,Texas,Central,"Office Supplies",Binders,18.528,6,0.8,27.792,0,0,0,0
+Corporate,Austin,Texas,Central,"Office Supplies",Binders,13.184,4,0.8,20.4352,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Binders,9.762,3,0.8,15.1311,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Binders,4.276,1,0.8,6.6278,0,0,0,0
+"Home Office",Austin,Texas,Central,"Office Supplies",Binders,3.882,3,0.8,5.823,0,0,0,0
+Consumer,Austin,Texas,Central,"Office Supplies",Binders,2.772,7,0.8,4.851,0,0,0,0
+Consumer,Austin,Texas,Central,Technology,Accessories,55.2,1,0.2,2.07,0,0,0,0
+Consumer,Austin,Texas,Central,Technology,Phones,55.992,1,0.2,5.5992,0,0,0,0
+Consumer,Austin,Texas,Central,Technology,Accessories,22.368,4,0.2,6.4308,0,0,0,0
+Consumer,Austin,Texas,Central,Technology,Accessories,62.592,8,0.2,13.3008,0,0,0,0
+Consumer,Austin,Texas,Central,Technology,Accessories,47.984,2,0.2,14.3952,0,0,0,0
+Corporate,Austin,Texas,Central,Technology,Phones,124.792,1,0.2,15.599,0,0,0,0
+Consumer,Austin,Texas,Central,Technology,Accessories,95.736,3,0.2,20.3439,0,0,0,0
+"Home Office",Austin,Texas,Central,Technology,Phones,758.352,6,0.2,265.4232,0,0,0,0
+Corporate,Austin,Texas,Central,Technology,Machines,1439.982,3,0.4,263.9967,0,0,0,0
+Consumer,Avondale,Arizona,West,"Office Supplies",Art,16.464,7,0.2,1.8522,0,0,0,0
+Consumer,Avondale,Arizona,West,"Office Supplies",Art,14.576,2,0.2,2.3686,0,0,0,0
+Consumer,Avondale,Arizona,West,"Office Supplies",Supplies,47.992,7,0.2,3.5994,0,0,0,0
+Consumer,Avondale,Arizona,West,Technology,Accessories,102.24,4,0.2,16.614,0,0,0,0
+Consumer,Avondale,Arizona,West,Technology,Accessories,23.2,2,0.2,1.45,0,0,0,0
+Consumer,Avondale,Arizona,West,Technology,Phones,742.336,8,0.2,83.5128,0,0,0,0
+Consumer,Bakersfield,California,West,Furniture,Furnishings,41.6,4,0,14.144,0,0,0,0
+Consumer,Bakersfield,California,West,Furniture,Furnishings,51.75,1,0,15.525,0,0,0,0
+Consumer,Bakersfield,California,West,Furniture,Bookcases,195.466,2,0.15,13.7976,0,0,0,0
+Consumer,Bakersfield,California,West,Furniture,Chairs,72.784,1,0.2,0,0,0,0,0
+Consumer,Bakersfield,California,West,Furniture,Tables,486.368,4,0.2,36.4776,0,0,0,0
+"Home Office",Bakersfield,California,West,"Office Supplies",Paper,4.73,1,0,2.3177,0,0,0,0
+Consumer,Bakersfield,California,West,"Office Supplies",Art,9.4,5,0,2.726,0,0,0,0
+Corporate,Bakersfield,California,West,"Office Supplies",Paper,12.96,2,0,6.2208,0,0,0,0
+Consumer,Bakersfield,California,West,"Office Supplies",Fasteners,35,7,0,16.8,0,0,0,0
+Consumer,Bakersfield,California,West,"Office Supplies",Appliances,97.84,2,0,25.4384,0,0,0,0
+Consumer,Bakersfield,California,West,"Office Supplies",Labels,74,5,0,37,0,0,0,0
+"Home Office",Bakersfield,California,West,"Office Supplies",Binders,4.784,1,0.2,1.5548,0,0,0,0
+"Home Office",Bakersfield,California,West,"Office Supplies",Binders,19.152,3,0.2,6.4638,0,0,0,0
+Corporate,Bakersfield,California,West,"Office Supplies",Binders,23.2,5,0.2,8.12,0,0,0,0
+Consumer,Bakersfield,California,West,"Office Supplies",Binders,46.672,2,0.2,16.3352,0,0,0,0
+Consumer,Bakersfield,California,West,Technology,Phones,201.584,2,0.2,12.599,0,0,0,0
+Consumer,Baltimore,Maryland,East,Furniture,Furnishings,14.76,2,0,4.2804,0,0,0,0
+"Home Office",Baltimore,Maryland,East,Furniture,Furnishings,20.9,5,0,7.524,0,0,0,0
+Corporate,Baltimore,Maryland,East,Furniture,Chairs,261.96,2,0,23.5764,0,0,0,0
+Consumer,Baltimore,Maryland,East,Furniture,Bookcases,344.94,3,0,31.0446,0,0,0,0
+"Home Office",Baltimore,Maryland,East,Furniture,Chairs,150.98,1,0,43.7842,0,0,0,0
+Corporate,Baltimore,Maryland,East,Furniture,Furnishings,207.76,4,0,85.1816,0,0,0,0
+Corporate,Baltimore,Maryland,East,Furniture,Chairs,542.94,3,0,141.1644,0,0,0,0
+Consumer,Baltimore,Maryland,East,Furniture,Chairs,908.82,9,0,227.205,0,0,0,0
+"Home Office",Baltimore,Maryland,East,Furniture,Furnishings,1049.2,5,0,272.792,0,0,0,0
+Consumer,Baltimore,Maryland,East,Furniture,Tables,239.372,2,0.3,23.9372,0,0,0,0
+"Home Office",Baltimore,Maryland,East,"Office Supplies",Art,1.64,1,0,0.738,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Art,3.76,2,0,1.0904,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Art,5.34,2,0,1.4952,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Labels,3.15,1,0,1.512,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Art,8.22,3,0,2.2194,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Art,10.71,3,0,2.7846,0,0,0,0
+"Home Office",Baltimore,Maryland,East,"Office Supplies",Labels,7.83,3,0,3.6018,0,0,0,0
+"Home Office",Baltimore,Maryland,East,"Office Supplies",Fasteners,11.52,4,0,5.4144,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Binders,12.76,2,0,5.8696,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Supplies,25.02,3,0,6.5052,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Art,14.7,5,0,6.615,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Art,37.2,5,0,9.3,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Art,27.36,9,0,9.3024,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Binders,20.86,2,0,9.387,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Binders,25.06,2,0,11.7782,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Paper,26.4,5,0,12.672,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Paper,39.9,5,0,19.95,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Appliances,77.58,9,0,20.1708,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Paper,44.75,5,0,20.585,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Appliances,90.86,7,0,26.3494,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Labels,58.48,8,0,27.4856,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Labels,74,5,0,37,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Paper,94.85,5,0,45.528,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Paper,116.28,3,0,56.9772,0,0,0,0
+"Home Office",Baltimore,Maryland,East,"Office Supplies",Envelopes,137.25,9,0,63.135,0,0,0,0
+Consumer,Baltimore,Maryland,East,"Office Supplies",Paper,164.88,3,0,80.7912,0,0,0,0
+Corporate,Baltimore,Maryland,East,"Office Supplies",Storage,497.61,9,0,129.3786,0,0,0,0
+Consumer,Baltimore,Maryland,East,Technology,Accessories,98.16,6,0,9.816,0,0,0,0
+Corporate,Baltimore,Maryland,East,Technology,Accessories,89.97,3,0,18.8937,0,0,0,0
+Consumer,Baltimore,Maryland,East,Technology,Phones,89.97,3,0,25.1916,0,0,0,0
+Corporate,Baltimore,Maryland,East,Technology,Phones,134.99,1,0,36.4473,0,0,0,0
+Consumer,Baltimore,Maryland,East,Technology,Phones,89.95,5,0,43.176,0,0,0,0
+Corporate,Bangor,Maine,East,Furniture,Furnishings,109.48,2,0,33.9388,0,0,0,0
+Corporate,Bangor,Maine,East,"Office Supplies",Appliances,101.96,2,0,27.5292,0,0,0,0
+Corporate,Bangor,Maine,East,Technology,Accessories,255.42,9,0,104.7222,0,0,0,0
+Corporate,Bangor,Maine,East,Technology,Phones,437.85,3,0,131.355,0,0,0,0
+Consumer,Bartlett,Tennessee,South,"Office Supplies",Supplies,88.96,8,0.2,10.008,0,0,0,0
+"Home Office",Bayonne,"New Jersey",East,"Office Supplies",Binders,14.46,3,0,7.0854,0,0,0,0
+"Home Office",Bayonne,"New Jersey",East,Technology,Accessories,63.96,4,0,19.8276,0,0,0,0
+"Home Office",Bayonne,"New Jersey",East,Technology,Phones,104.98,2,0,52.49,0,0,0,0
+Corporate,Baytown,Texas,Central,"Office Supplies",Paper,10.368,2,0.2,3.6288,0,0,0,0
+Consumer,Beaumont,Texas,Central,Furniture,Furnishings,8.624,7,0.6,2.5872,0,0,0,0
+Corporate,Beaumont,Texas,Central,"Office Supplies",Storage,12.768,2,0.2,0.9576,0,0,0,0
+Consumer,Beaumont,Texas,Central,"Office Supplies",Binders,10.78,5,0.8,17.248,0,0,0,0
+Consumer,Beaumont,Texas,Central,Technology,Accessories,119.976,3,0.2,17.9964,0,0,0,0
+Consumer,Beaumont,Texas,Central,Technology,Accessories,319.968,4,0.2,95.9904,0,0,0,0
+Corporate,Bedford,Texas,Central,"Office Supplies",Art,9.184,7,0.2,2.87,0,0,0,0
+"Home Office",Bedford,Texas,Central,"Office Supplies",Paper,20.96,4,0.2,6.812,0,0,0,0
+Corporate,Bedford,Texas,Central,"Office Supplies",Paper,29.664,4,0.2,10.0116,0,0,0,0
+Corporate,Bedford,Texas,Central,"Office Supplies",Binders,12.864,8,0.8,22.512,0,0,0,0
+Corporate,Bedford,Texas,Central,Technology,Phones,153.584,2,0.2,13.4386,0,0,0,0
+Consumer,Belleville,"New Jersey",East,Furniture,Chairs,227.96,2,0,36.4736,0,0,0,0
+Corporate,Belleville,"New Jersey",East,Furniture,Furnishings,77.6,4,0,38.024,0,0,0,0
+Consumer,Belleville,"New Jersey",East,"Office Supplies",Paper,6.48,1,0,3.1104,0,0,0,0
+Consumer,Belleville,"New Jersey",East,"Office Supplies",Labels,9.82,2,0,4.8118,0,0,0,0
+Corporate,Belleville,"New Jersey",East,"Office Supplies",Binders,14.28,1,0,6.5688,0,0,0,0
+Corporate,Belleville,"New Jersey",East,"Office Supplies",Storage,1082.48,8,0,10.8248,0,0,0,0
+Corporate,Belleville,"New Jersey",East,"Office Supplies",Paper,32.4,5,0,15.552,0,0,0,0
+Corporate,Belleville,"New Jersey",East,"Office Supplies",Paper,56.91,3,0,27.3168,0,0,0,0
+Consumer,Belleville,"New Jersey",East,"Office Supplies",Paper,143.7,3,0,68.976,0,0,0,0
+Consumer,Belleville,"New Jersey",East,Technology,Accessories,239.97,3,0,71.991,0,0,0,0
+Consumer,Bellevue,Washington,West,Furniture,Furnishings,20.24,1,0,7.8936,0,0,0,0
+Corporate,Bellevue,Washington,West,"Office Supplies",Art,5.28,3,0,1.5312,0,0,0,0
+Consumer,Bellevue,Washington,West,"Office Supplies",Paper,12.96,2,0,6.2208,0,0,0,0
+"Home Office",Bellevue,Washington,West,"Office Supplies",Supplies,25.35,3,0,7.605,0,0,0,0
+Consumer,Bellevue,Washington,West,"Office Supplies",Binders,14.976,6,0.2,5.4288,0,0,0,0
+Consumer,Bellevue,Washington,West,"Office Supplies",Binders,24.816,3,0.2,8.3754,0,0,0,0
+Consumer,Bellingham,Washington,West,Furniture,Tables,2665.62,9,0,239.9058,0,0,0,0
+Consumer,Bellingham,Washington,West,"Office Supplies",Binders,25.12,5,0.2,7.85,0,0,0,0
+Corporate,Bethlehem,Pennsylvania,East,Furniture,Furnishings,33.568,2,0.2,5.4548,0,0,0,0
+Corporate,Bethlehem,Pennsylvania,East,Furniture,Chairs,99.372,2,0.3,7.098,0,0,0,0
+Consumer,Bethlehem,Pennsylvania,East,Furniture,Bookcases,177.45,5,0.5,78.078,0,0,0,0
+Consumer,Bethlehem,Pennsylvania,East,"Office Supplies",Appliances,9.48,3,0.2,0.711,0,0,0,0
+Consumer,Bethlehem,Pennsylvania,East,"Office Supplies",Binders,1369.764,6,0.7,913.176,0,0,0,0
+Corporate,Beverly,Massachusetts,East,"Office Supplies",Paper,141.76,4,0,66.6272,0,0,0,0
+Corporate,Beverly,Massachusetts,East,"Office Supplies",Storage,704.25,5,0,84.51,0,0,0,0
+Corporate,Beverly,Massachusetts,East,"Office Supplies",Appliances,1737.18,6,0,503.7822,0,0,0,0
+Corporate,Billings,Montana,West,"Office Supplies",Binders,8.288,2,0.2,2.6936,0,0,0,0
+Consumer,Bloomington,Illinois,Central,Furniture,Tables,617.7,6,0.5,407.682,0,0,0,0
+Consumer,Bloomington,Illinois,Central,Furniture,Furnishings,41.552,2,0.6,19.7372,0,0,0,0
+Consumer,Bloomington,Illinois,Central,"Office Supplies",Storage,180.016,1,0.2,15.7514,0,0,0,0
+Consumer,Bloomington,Illinois,Central,"Office Supplies",Art,13.12,5,0.2,1.476,0,0,0,0
+Consumer,Bloomington,Illinois,Central,"Office Supplies",Envelopes,12.224,2,0.2,4.4312,0,0,0,0
+Corporate,Bloomington,Illinois,Central,"Office Supplies",Art,54.336,4,0.2,5.4336,0,0,0,0
+Consumer,Bloomington,Illinois,Central,"Office Supplies",Binders,5.176,4,0.8,7.764,0,0,0,0
+Consumer,Bloomington,Illinois,Central,Technology,Accessories,39.816,3,0.2,7.4655,0,0,0,0
+Consumer,Bloomington,Indiana,Central,Furniture,Furnishings,127.95,3,0,21.7515,0,0,0,0
+"Home Office",Bloomington,Indiana,Central,"Office Supplies",Paper,31.68,6,0,14.256,0,0,0,0
+"Home Office",Bloomington,Indiana,Central,"Office Supplies",Binders,29.12,4,0,14.2688,0,0,0,0
+Consumer,Bloomington,Indiana,Central,"Office Supplies",Paper,32.4,5,0,15.552,0,0,0,0
+"Home Office",Bloomington,Indiana,Central,"Office Supplies",Envelopes,78.35,5,0,36.8245,0,0,0,0
+"Home Office",Bloomington,Indiana,Central,"Office Supplies",Storage,169.45,5,0,42.3625,0,0,0,0
+Consumer,Bloomington,Indiana,Central,Technology,Phones,134.85,3,0,37.758,0,0,0,0
+Consumer,"Boca Raton",Florida,South,"Office Supplies",Labels,4.608,2,0.2,1.6704,0,0,0,0
+Consumer,"Boca Raton",Florida,South,"Office Supplies",Binders,39.936,4,0.7,26.624,0,0,0,0
+Consumer,"Boca Raton",Florida,South,Technology,Accessories,18.464,2,0.2,2.308,0,0,0,0
+Corporate,Boise,Idaho,West,Furniture,Tables,696.42,2,0,160.1766,0,0,0,0
+Corporate,Boise,Idaho,West,"Office Supplies",Binders,3.304,1,0.2,1.1151,0,0,0,0
+Consumer,Boise,Idaho,West,Technology,Accessories,89.97,3,0,37.7874,0,0,0,0
+Corporate,Boise,Idaho,West,Technology,Phones,304.776,3,0.2,22.8582,0,0,0,0
+Consumer,Bolingbrook,Illinois,Central,"Office Supplies",Fasteners,12.032,8,0.2,2.256,0,0,0,0
+Consumer,Bolingbrook,Illinois,Central,"Office Supplies",Supplies,31.68,4,0.2,2.772,0,0,0,0
+Consumer,Bolingbrook,Illinois,Central,"Office Supplies",Paper,10.368,2,0.2,3.6288,0,0,0,0
+"Home Office",Bolingbrook,Illinois,Central,"Office Supplies",Binders,9.98,5,0.8,16.467,0,0,0,0
+Consumer,Bolingbrook,Illinois,Central,"Office Supplies",Appliances,5.768,2,0.8,13.5548,0,0,0,0
+Consumer,Bolingbrook,Illinois,Central,Technology,Phones,148.48,2,0.2,16.704,0,0,0,0
+Corporate,"Bossier City",Louisiana,South,Furniture,Furnishings,129.92,4,0,10.3936,0,0,0,0
+Corporate,"Bossier City",Louisiana,South,"Office Supplies",Binders,5.64,3,0,2.7072,0,0,0,0
+Corporate,"Bossier City",Louisiana,South,"Office Supplies",Envelopes,11.36,2,0,5.3392,0,0,0,0
+Corporate,"Bossier City",Louisiana,South,"Office Supplies",Envelopes,50.94,3,0,25.47,0,0,0,0
+Corporate,"Bossier City",Louisiana,South,"Office Supplies",Storage,572.58,6,0,34.3548,0,0,0,0
+Corporate,"Bossier City",Louisiana,South,Technology,Accessories,646.74,6,0,258.696,0,0,0,0
+Corporate,"Bowling Green",Kentucky,South,Furniture,Chairs,140.81,1,0,39.4268,0,0,0,0
+Consumer,"Bowling Green",Kentucky,South,Technology,Accessories,71,4,0,27.69,0,0,0,0
+Consumer,"Bowling Green",Ohio,East,"Office Supplies",Labels,6.912,3,0.2,2.5056,0,0,0,0
+Corporate,"Bowling Green",Ohio,East,"Office Supplies",Art,86.352,3,0.2,5.397,0,0,0,0
+Consumer,"Bowling Green",Ohio,East,"Office Supplies",Storage,264.32,2,0.2,19.824,0,0,0,0
+Consumer,"Bowling Green",Ohio,East,"Office Supplies",Storage,435.504,3,0.2,48.9942,0,0,0,0
+Consumer,"Bowling Green",Ohio,East,"Office Supplies",Binders,5.553,3,0.7,4.0722,0,0,0,0
+Corporate,"Bowling Green",Ohio,East,Technology,Accessories,139.96,5,0.2,1.7495,0,0,0,0
+Consumer,"Bowling Green",Ohio,East,Technology,Phones,26.982,3,0.4,4.0473,0,0,0,0
+Corporate,"Bowling Green",Ohio,East,Technology,Copiers,899.982,3,0.4,74.9985,0,0,0,0
+Consumer,"Boynton Beach",Florida,South,Furniture,Furnishings,63.968,2,0.2,0,0,0,0,0
+Consumer,"Boynton Beach",Florida,South,Furniture,Chairs,97.184,2,0.2,6.074,0,0,0,0
+Consumer,"Boynton Beach",Florida,South,Furniture,Furnishings,47.952,3,0.2,13.7862,0,0,0,0
+Consumer,"Boynton Beach",Florida,South,Furniture,Furnishings,165.048,3,0.2,41.262,0,0,0,0
+"Home Office","Boynton Beach",Florida,South,"Office Supplies",Labels,4.608,2,0.2,1.6704,0,0,0,0
+Consumer,"Boynton Beach",Florida,South,"Office Supplies",Paper,10.368,2,0.2,3.6288,0,0,0,0
+"Home Office","Boynton Beach",Florida,South,"Office Supplies",Labels,11.952,3,0.2,3.8844,0,0,0,0
+"Home Office","Boynton Beach",Florida,South,"Office Supplies",Art,15.528,3,0.2,4.8525,0,0,0,0
+Consumer,"Boynton Beach",Florida,South,"Office Supplies",Paper,15.552,3,0.2,5.4432,0,0,0,0
+Consumer,"Boynton Beach",Florida,South,"Office Supplies",Binders,37.425,5,0.7,29.94,0,0,0,0
+"Home Office",Bozeman,Montana,West,"Office Supplies",Labels,14.62,2,0,6.8714,0,0,0,0
+"Home Office",Bozeman,Montana,West,"Office Supplies",Paper,29.04,3,0,13.9392,0,0,0,0
+Corporate,Brentwood,California,West,Furniture,Furnishings,23.88,3,0,10.5072,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Storage,10.68,1,0,2.8836,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Paper,8.56,2,0,3.852,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Envelopes,23.36,2,0,11.68,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Paper,26.76,4,0,12.3096,0,0,0,0
+Consumer,Brentwood,California,West,"Office Supplies",Labels,88.8,6,0,44.4,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Appliances,320.88,6,0,93.0552,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Storage,540.57,3,0,140.5482,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Appliances,2518.29,9,0,654.7554,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Binders,13.92,3,0.2,4.872,0,0,0,0
+Corporate,Brentwood,California,West,"Office Supplies",Binders,221.056,8,0.2,77.3696,0,0,0,0
+"Home Office",Brentwood,California,West,Technology,Accessories,59.97,3,0,13.7931,0,0,0,0
+Consumer,Brentwood,California,West,Technology,Accessories,79.9,2,0,35.156,0,0,0,0
+Corporate,Brentwood,California,West,Technology,Phones,71.976,3,0.2,8.997,0,0,0,0
+Consumer,Brentwood,California,West,Technology,Phones,319.968,4,0.2,35.9964,0,0,0,0
+"Home Office",Brentwood,California,West,Technology,Phones,761.544,7,0.2,66.6351,0,0,0,0
+Corporate,Bridgeton,"New Jersey",East,"Office Supplies",Storage,40.74,3,0,0.4074,0,0,0,0
+Corporate,Bridgeton,"New Jersey",East,"Office Supplies",Appliances,11.67,3,0,3.0342,0,0,0,0
+Corporate,Bristol,Connecticut,East,Furniture,Tables,70.56,1,0.3,4.032,0,0,0,0
+Corporate,Bristol,Connecticut,East,"Office Supplies",Binders,3.81,1,0,1.8288,0,0,0,0
+Consumer,Bristol,Connecticut,East,"Office Supplies",Storage,95.94,3,0,9.594,0,0,0,0
+Corporate,Bristol,Connecticut,East,"Office Supplies",Binders,20.88,2,0,9.6048,0,0,0,0
+Consumer,Bristol,Connecticut,East,"Office Supplies",Binders,25.3,5,0,11.891,0,0,0,0
+Corporate,Bristol,Connecticut,East,"Office Supplies",Appliances,137.62,2,0,60.5528,0,0,0,0
+Corporate,Bristol,Connecticut,East,Technology,Phones,100.49,1,0,25.1225,0,0,0,0
+Corporate,Bristol,Connecticut,East,Technology,Phones,359.98,2,0,93.5948,0,0,0,0
+Corporate,Bristol,Tennessee,South,Furniture,Chairs,170.352,3,0.2,10.647,0,0,0,0
+"Home Office",Bristol,Tennessee,South,"Office Supplies",Art,67.56,3,0.2,8.445,0,0,0,0
+Corporate,Bristol,Tennessee,South,"Office Supplies",Binders,157.794,1,0.7,115.7156,0,0,0,0
+Corporate,Bristol,Tennessee,South,"Office Supplies",Binders,38.088,4,0.7,27.9312,0,0,0,0
+Corporate,Bristol,Tennessee,South,"Office Supplies",Binders,2.808,3,0.7,1.9656,0,0,0,0
+Corporate,"Broken Arrow",Oklahoma,Central,Furniture,Tables,1592.85,7,0,350.427,0,0,0,0
+Consumer,"Broken Arrow",Oklahoma,Central,"Office Supplies",Binders,6.38,1,0,2.9348,0,0,0,0
+Consumer,"Broken Arrow",Oklahoma,Central,"Office Supplies",Paper,6.48,1,0,3.1104,0,0,0,0
+Corporate,"Broken Arrow",Oklahoma,Central,"Office Supplies",Binders,11.88,2,0,5.346,0,0,0,0
+"Home Office","Broken Arrow",Oklahoma,Central,Technology,Phones,821.94,6,0,213.7044,0,0,0,0
+Corporate,Broomfield,Colorado,West,Furniture,Furnishings,68.432,7,0.2,8.554,0,0,0,0
+Consumer,Broomfield,Colorado,West,Furniture,Chairs,662.88,3,0.2,74.574,0,0,0,0
+Consumer,Broomfield,Colorado,West,"Office Supplies",Storage,33.488,7,0.2,1.2558,0,0,0,0
+Consumer,Broomfield,Colorado,West,"Office Supplies",Binders,19.968,2,0.7,13.312,0,0,0,0
+Consumer,Broomfield,Colorado,West,"Office Supplies",Binders,8.736,4,0.7,6.1152,0,0,0,0
+"Home Office",Brownsville,Texas,Central,Furniture,Chairs,127.302,7,0.3,9.093,0,0,0,0
+Consumer,Brownsville,Texas,Central,Furniture,Bookcases,327.7328,2,0.32,14.4588,0,0,0,0
+Consumer,Brownsville,Texas,Central,"Office Supplies",Supplies,1.744,1,0.2,0.3488,0,0,0,0
+Corporate,Brownsville,Texas,Central,"Office Supplies",Paper,10.688,2,0.2,3.7408,0,0,0,0
+Corporate,Brownsville,Texas,Central,"Office Supplies",Storage,237.096,3,0.2,20.7459,0,0,0,0
+"Home Office",Brownsville,Texas,Central,"Office Supplies",Envelopes,335.72,5,0.2,113.3055,0,0,0,0
+"Home Office",Brownsville,Texas,Central,Technology,Phones,251.944,7,0.2,88.1804,0,0,0,0
+Corporate,Bryan,Texas,Central,Furniture,Chairs,528.43,5,0.3,143.431,0,0,0,0
+"Home Office",Bryan,Texas,Central,"Office Supplies",Storage,52.752,3,0.2,12.5286,0,0,0,0
+Corporate,Bryan,Texas,Central,"Office Supplies",Binders,22.386,7,0.8,35.8176,0,0,0,0
+"Home Office",Bryan,Texas,Central,"Office Supplies",Binders,7.536,6,0.8,13.188,0,0,0,0
+"Home Office",Bryan,Texas,Central,"Office Supplies",Binders,4.144,4,0.8,6.4232,0,0,0,0
+"Home Office",Bryan,Texas,Central,"Office Supplies",Binders,1.408,2,0.8,2.3232,0,0,0,0
+Corporate,Buffalo,"New York",East,Furniture,Furnishings,154.95,3,0,30.99,0,0,0,0
+Corporate,Buffalo,"New York",East,Furniture,Furnishings,199.9,5,0,39.98,0,0,0,0
+Consumer,Buffalo,"New York",East,Furniture,Chairs,63.882,1,0.1,10.647,0,0,0,0
+Corporate,Buffalo,"New York",East,Furniture,Chairs,1522.638,9,0.1,169.182,0,0,0,0
+Consumer,Buffalo,"New York",East,"Office Supplies",Art,2.78,2,0,0.7228,0,0,0,0
+Consumer,Buffalo,"New York",East,"Office Supplies",Supplies,835.17,7,0,16.7034,0,0,0,0
+Consumer,Buffalo,"New York",East,"Office Supplies",Envelopes,79.96,2,0,35.982,0,0,0,0
+Consumer,Buffalo,"New York",East,"Office Supplies",Binders,2152.776,3,0.2,726.5619,0,0,0,0
+Corporate,Buffalo,"New York",East,Technology,Phones,43.6,4,0,12.208,0,0,0,0
+Consumer,"Buffalo Grove",Illinois,Central,Furniture,Tables,355.455,3,0.5,184.8366,0,0,0,0
+Consumer,"Buffalo Grove",Illinois,Central,Technology,Accessories,475.944,7,0.2,95.1888,0,0,0,0
+Consumer,"Bullhead City",Arizona,West,Furniture,Furnishings,14.368,2,0.2,3.9512,0,0,0,0
+Consumer,"Bullhead City",Arizona,West,"Office Supplies",Envelopes,7.92,1,0.2,2.772,0,0,0,0
+"Home Office",Burbank,California,West,Furniture,Furnishings,111,2,0,14.43,0,0,0,0
+"Home Office",Burbank,California,West,"Office Supplies",Storage,1856.19,7,0,334.1142,0,0,0,0
+"Home Office",Burbank,California,West,Technology,Machines,1279.968,4,0.2,415.9896,0,0,0,0
+"Home Office",Burlington,Iowa,Central,"Office Supplies",Binders,5.4,3,0,2.592,0,0,0,0
+"Home Office",Burlington,Iowa,Central,"Office Supplies",Envelopes,7.28,1,0,3.4944,0,0,0,0
+Consumer,Burlington,Iowa,Central,"Office Supplies",Paper,44.75,5,0,20.585,0,0,0,0
+Consumer,Burlington,"North Carolina",South,Furniture,Tables,1781.682,7,0.4,653.2834,0,0,0,0
+Corporate,Burlington,"North Carolina",South,Furniture,Tables,630.024,4,0.4,199.5076,0,0,0,0
+Consumer,Burlington,"North Carolina",South,"Office Supplies",Art,1.752,1,0.2,0.1533,0,0,0,0
+Corporate,Burlington,"North Carolina",South,"Office Supplies",Art,9.552,3,0.2,1.5522,0,0,0,0
+Consumer,Burlington,"North Carolina",South,"Office Supplies",Art,28.728,3,0.2,1.7955,0,0,0,0
+Consumer,Burlington,"North Carolina",South,"Office Supplies",Art,20.992,8,0.2,2.3616,0,0,0,0
+Consumer,Burlington,"North Carolina",South,"Office Supplies",Art,23.968,7,0.2,2.6964,0,0,0,0
+Corporate,Burlington,"North Carolina",South,"Office Supplies",Appliances,167.44,2,0.2,14.651,0,0,0,0
+"Home Office",Burlington,"North Carolina",South,"Office Supplies",Binders,1633.188,4,0.7,1306.5504,0,0,0,0
+Consumer,Burlington,"North Carolina",South,Technology,Accessories,383.976,3,0.2,81.5949,0,0,0,0
+Corporate,Burlington,"North Carolina",South,Technology,Machines,7999.98,4,0.5,3839.9904,0,0,0,0
+Consumer,Burlington,Vermont,East,Furniture,Chairs,715.2,3,0,178.8,0,0,0,0
+Corporate,Burlington,Vermont,East,Furniture,Bookcases,4404.9,5,0,1013.127,0,0,0,0
+Consumer,Burlington,Vermont,East,"Office Supplies",Envelopes,2.04,1,0,0.9588,0,0,0,0
+Corporate,Burlington,Vermont,East,"Office Supplies",Art,8.04,6,0,2.7336,0,0,0,0
+Consumer,Burlington,Vermont,East,"Office Supplies",Paper,12.28,1,0,5.7716,0,0,0,0
+Consumer,Burlington,Vermont,East,"Office Supplies",Paper,79.92,4,0,37.5624,0,0,0,0
+Consumer,Burlington,Vermont,East,"Office Supplies",Appliances,542.94,3,0,152.0232,0,0,0,0
+Corporate,Burlington,Vermont,East,Technology,Accessories,99.98,2,0,42.9914,0,0,0,0
+Corporate,Burlington,Vermont,East,Technology,Accessories,205.03,7,0,67.6599,0,0,0,0
+"Home Office",Burlington,Vermont,East,Technology,Phones,1294.75,5,0,336.635,0,0,0,0
+Corporate,Caldwell,Idaho,West,Furniture,Chairs,338.352,3,0.2,4.2294,0,0,0,0
+Corporate,Caldwell,Idaho,West,"Office Supplies",Paper,25.92,4,0,12.4416,0,0,0,0
+Corporate,Caldwell,Idaho,West,"Office Supplies",Paper,91.36,4,0,42.0256,0,0,0,0
+Corporate,Camarillo,California,West,Furniture,Furnishings,122.91,3,0,34.4148,0,0,0,0
+Corporate,Camarillo,California,West,Furniture,Bookcases,509.9575,5,0.15,41.9965,0,0,0,0
+Corporate,Camarillo,California,West,Furniture,Chairs,97.568,2,0.2,6.098,0,0,0,0
+Corporate,Camarillo,California,West,Furniture,Chairs,722.352,3,0.2,81.2646,0,0,0,0
+Consumer,Camarillo,California,West,"Office Supplies",Labels,14.73,3,0,7.2177,0,0,0,0
+"Home Office",Cambridge,Massachusetts,East,Furniture,Furnishings,26.72,1,0,11.7568,0,0,0,0
+"Home Office",Cambridge,Massachusetts,East,"Office Supplies",Art,17.12,4,0,4.9648,0,0,0,0
+"Home Office",Cambridge,Massachusetts,East,"Office Supplies",Binders,22.45,5,0,10.327,0,0,0,0
+"Home Office",Cambridge,Massachusetts,East,"Office Supplies",Paper,59.94,3,0,28.1718,0,0,0,0
+"Home Office",Cambridge,Massachusetts,East,Technology,Accessories,63.88,4,0,24.9132,0,0,0,0
+"Home Office",Cambridge,Massachusetts,East,Technology,Phones,311.98,2,0,93.594,0,0,0,0
+Corporate,Canton,Michigan,Central,Furniture,Furnishings,28.4,2,0,11.076,0,0,0,0
+"Home Office",Canton,Michigan,Central,"Office Supplies",Storage,501.81,3,0,0,0,0,0,0
+Corporate,Canton,Michigan,Central,"Office Supplies",Binders,287.92,8,0,138.2016,0,0,0,0
+Corporate,Carlsbad,"New Mexico",West,"Office Supplies",Art,4.17,3,0,1.0842,0,0,0,0
+"Home Office",Carlsbad,"New Mexico",West,"Office Supplies",Supplies,16.68,2,0,4.3368,0,0,0,0
+Corporate,Carlsbad,"New Mexico",West,"Office Supplies",Labels,18.45,5,0,8.6715,0,0,0,0
+"Home Office",Carlsbad,"New Mexico",West,"Office Supplies",Paper,19.44,3,0,9.3312,0,0,0,0
+Corporate,Carlsbad,"New Mexico",West,"Office Supplies",Storage,37.32,3,0,10.4496,0,0,0,0
+Consumer,Carlsbad,"New Mexico",West,"Office Supplies",Envelopes,28.4,5,0,13.348,0,0,0,0
+"Home Office",Carlsbad,"New Mexico",West,"Office Supplies",Paper,192.16,4,0,92.2368,0,0,0,0
+Consumer,Carlsbad,"New Mexico",West,"Office Supplies",Binders,10.776,3,0.2,3.3675,0,0,0,0
+Corporate,Carlsbad,"New Mexico",West,"Office Supplies",Binders,11.416,1,0.2,3.8529,0,0,0,0
+Corporate,Carlsbad,"New Mexico",West,"Office Supplies",Binders,13.488,2,0.2,4.3836,0,0,0,0
+Corporate,Carlsbad,"New Mexico",West,Technology,Phones,67.04,4,0.2,6.704,0,0,0,0
+Consumer,"Carol Stream",Illinois,Central,Furniture,Chairs,382.116,6,0.3,92.7996,0,0,0,0
+Consumer,"Carol Stream",Illinois,Central,Furniture,Chairs,408.422,2,0.3,5.8346,0,0,0,0
+Consumer,"Carol Stream",Illinois,Central,"Office Supplies",Paper,11.168,2,0.2,3.7692,0,0,0,0
+Consumer,"Carol Stream",Illinois,Central,"Office Supplies",Storage,68.6,5,0.2,6.0025,0,0,0,0
+Consumer,"Carol Stream",Illinois,Central,"Office Supplies",Storage,435.504,3,0.2,48.9942,0,0,0,0
+Consumer,Carrollton,Texas,Central,Furniture,Furnishings,15.992,2,0.6,13.993,0,0,0,0
+Consumer,Carrollton,Texas,Central,Furniture,Furnishings,25.128,3,0.6,6.9102,0,0,0,0
+Consumer,Carrollton,Texas,Central,"Office Supplies",Supplies,6.672,1,0.2,0.5004,0,0,0,0
+Corporate,Carrollton,Texas,Central,"Office Supplies",Paper,10.368,2,0.2,3.6288,0,0,0,0
+Consumer,Carrollton,Texas,Central,"Office Supplies",Paper,16.896,4,0.2,5.28,0,0,0,0
+Consumer,Carrollton,Texas,Central,"Office Supplies",Fasteners,18.864,9,0.2,6.1308,0,0,0,0
+Consumer,Carrollton,Texas,Central,"Office Supplies",Art,99.136,4,0.2,8.6744,0,0,0,0
+Consumer,Carrollton,Texas,Central,"Office Supplies",Binders,310.392,4,0.8,512.1468,0,0,0,0
+Consumer,Carrollton,Texas,Central,"Office Supplies",Appliances,19.568,2,0.8,52.8336,0,0,0,0
+Corporate,Carrollton,Texas,Central,"Office Supplies",Binders,3.318,3,0.8,5.6406,0,0,0,0
+Consumer,Carrollton,Texas,Central,"Office Supplies",Binders,2.512,2,0.8,4.396,0,0,0,0
+Consumer,Carrollton,Texas,Central,Technology,Accessories,47.904,1,0.2,2.994,0,0,0,0
+Consumer,Carrollton,Texas,Central,Technology,Accessories,127.984,2,0.2,25.5968,0,0,0,0
+Corporate,Carrollton,Texas,Central,Technology,Accessories,95.968,4,0.2,26.3912,0,0,0,0
+Consumer,Carrollton,Texas,Central,Technology,Accessories,1399.944,7,0.2,52.4979,0,0,0,0
+Corporate,Cary,"North Carolina",South,"Office Supplies",Fasteners,8.376,3,0.2,2.7222,0,0,0,0
+Corporate,Cary,"North Carolina",South,"Office Supplies",Paper,10.368,2,0.2,3.6288,0,0,0,0
+Corporate,Cary,"North Carolina",South,"Office Supplies",Appliances,58.24,5,0.2,5.096,0,0,0,0
+Corporate,Cary,"North Carolina",South,"Office Supplies",Appliances,166.84,5,0.2,18.7695,0,0,0,0
+Corporate,Cary,"North Carolina",South,Technology,Accessories,15.216,1,0.2,2.2824,0,0,0,0
+Corporate,Cary,"North Carolina",South,Technology,Phones,246.168,3,0.2,21.5397,0,0,0,0
+Consumer,"Cedar Hill",Texas,Central,"Office Supplies",Envelopes,7.08,3,0.2,2.478,0,0,0,0
+Corporate,"Cedar Hill",Texas,Central,"Office Supplies",Paper,115.296,3,0.2,40.3536,0,0,0,0
+Consumer,"Cedar Rapids",Iowa,Central,Technology,Phones,278.4,3,0,80.736,0,0,0,0
+Consumer,Champaign,Illinois,Central,Furniture,Furnishings,151.96,5,0.6,182.352,0,0,0,0
+"Home Office",Chandler,Arizona,West,Furniture,Furnishings,8.544,4,0.2,1.9224,0,0,0,0
+"Home Office",Chandler,Arizona,West,Furniture,Chairs,842.376,3,0.2,105.297,0,0,0,0
+Corporate,Chandler,Arizona,West,Furniture,Tables,73.915,1,0.5,45.8273,0,0,0,0
+"Home Office",Chandler,Arizona,West,"Office Supplies",Fasteners,49.792,8,0.2,11.8256,0,0,0,0
+Consumer,Chandler,Arizona,West,"Office Supplies",Art,8.896,4,0.2,0.6672,0,0,0,0
+Consumer,Chandler,Arizona,West,"Office Supplies",Art,9.344,2,0.2,1.8688,0,0,0,0
+Corporate,Chandler,Arizona,West,"Office Supplies",Paper,83.88,1,0.2,29.358,0,0,0,0
+Corporate,"Chapel Hill","North Carolina",South,"Office Supplies",Art,14.016,3,0.2,4.7304,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,Furniture,Furnishings,4.928,2,0.2,0.7392,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,Furniture,Furnishings,44.128,4,0.2,12.1352,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Furniture,Chairs,242.352,3,0.2,15.147,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Furniture,Tables,472.518,3,0.4,149.6307,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,Furniture,Tables,154.764,3,0.4,36.1116,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Storage,387.72,5,0.2,67.851,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,"Office Supplies",Storage,540.048,3,0.2,47.2542,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Supplies,185.376,2,0.2,34.758,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Art,10.272,3,0.2,0.8988,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Art,3.304,1,0.2,1.0738,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Fasteners,7.52,5,0.2,1.41,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Art,12.672,9,0.2,1.4256,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Labels,5.04,2,0.2,1.764,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Art,19.456,4,0.2,3.4048,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Storage,45.248,2,0.2,3.9592,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Labels,11.784,3,0.2,4.2717,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,"Office Supplies",Fasteners,18.936,3,0.2,5.9175,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Labels,17.544,3,0.2,5.9211,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Storage,67.344,6,0.2,7.5762,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Appliances,62.92,1,0.2,10.2245,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Paper,36.24,5,0.2,11.325,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Storage,704.76,5,0.2,26.4285,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Paper,78.304,2,0.2,29.364,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,"Office Supplies",Storage,348.208,7,0.2,30.4682,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Appliances,309.456,9,0.2,34.8138,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Labels,122.12,5,0.2,39.689,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,"Office Supplies",Storage,580.672,4,0.2,65.3256,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Paper,192.16,5,0.2,67.256,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Paper,268.24,7,0.2,93.884,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,"Office Supplies",Binders,50.454,6,0.7,33.636,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,"Office Supplies",Binders,35.784,7,0.7,28.6272,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,"Office Supplies",Binders,27.882,3,0.7,20.4468,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Binders,27.396,3,0.7,20.0904,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Binders,22.911,7,0.7,17.5651,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,"Office Supplies",Binders,17.22,5,0.7,12.628,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,"Office Supplies",Binders,18.648,7,0.7,12.432,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Technology,Phones,27.992,1,0.2,2.0994,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,Technology,Phones,35.96,1,0.2,3.596,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Technology,Accessories,23.472,3,0.2,4.9878,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,Technology,Phones,222.384,2,0.2,16.6788,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Technology,Phones,271.96,5,0.2,16.9975,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Technology,Accessories,74.112,8,0.2,17.6016,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Technology,Phones,627.168,4,0.2,70.5564,0,0,0,0
+"Home Office",Charlotte,"North Carolina",South,Technology,Accessories,255.68,8,0.2,76.704,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Technology,Accessories,431.16,5,0.2,107.79,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,Technology,Phones,978.84,9,0.2,110.1195,0,0,0,0
+Corporate,Charlotte,"North Carolina",South,Technology,Copiers,959.968,4,0.2,119.996,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Technology,Accessories,1012.68,3,0.2,303.804,0,0,0,0
+Consumer,Charlotte,"North Carolina",South,Technology,Machines,2624.985,3,0.5,944.9946,0,0,0,0
+"Home Office",Charlottesville,Virginia,South,Furniture,Furnishings,67.96,4,0,12.2328,0,0,0,0
+Consumer,Charlottesville,Virginia,South,"Office Supplies",Art,34.65,3,0,10.395,0,0,0,0
+Corporate,Chattanooga,Tennessee,South,Furniture,Furnishings,132.224,4,0.2,18.1808,0,0,0,0
+Consumer,Chattanooga,Tennessee,South,Furniture,Furnishings,16.72,5,0.2,3.344,0,0,0,0
+Consumer,Chattanooga,Tennessee,South,Furniture,Furnishings,101.52,5,0.2,19.035,0,0,0,0
+Consumer,Chattanooga,Tennessee,South,Furniture,Chairs,390.368,2,0.2,48.796,0,0,0,0
+Consumer,Chattanooga,Tennessee,South,"Office Supplies",Labels,4.928,2,0.2,1.7248,0,0,0,0
+Corporate,Chattanooga,Tennessee,South,"Office Supplies",Binders,8.1,5,0.7,5.94,0,0,0,0
+Consumer,Chattanooga,Tennessee,South,"Office Supplies",Binders,3.564,2,0.7,2.97,0,0,0,0
+Consumer,Chattanooga,Tennessee,South,Technology,Phones,143.928,9,0.2,32.3838,0,0,0,0
+Consumer,Chattanooga,Tennessee,South,Technology,Accessories,95.976,3,0.2,15.5961,0,0,0,0
+"Home Office",Chattanooga,Tennessee,South,Technology,Machines,91.475,1,0.5,1.8295,0,0,0,0
+Consumer,Chesapeake,Virginia,South,Furniture,Tables,1256.22,6,0,75.3732,0,0,0,0
+Consumer,Chesapeake,Virginia,South,Furniture,Chairs,504.9,5,0,80.784,0,0,0,0
+"Home Office",Chesapeake,Virginia,South,Furniture,Chairs,1139.92,4,0,284.98,0,0,0,0
+Consumer,Chesapeake,Virginia,South,Furniture,Tables,1652.94,3,0,314.0586,0,0,0,0
+Corporate,Chesapeake,Virginia,South,"Office Supplies",Labels,15,4,0,7.2,0,0,0,0
+Consumer,Chesapeake,Virginia,South,"Office Supplies",Binders,17.46,2,0,8.2062,0,0,0,0
+Consumer,Chesapeake,Virginia,South,"Office Supplies",Labels,25.06,2,0,11.7782,0,0,0,0
+Consumer,Chesapeake,Virginia,South,"Office Supplies",Paper,32.4,5,0,15.552,0,0,0,0
+Corporate,Chesapeake,Virginia,South,"Office Supplies",Storage,61.68,4,0,16.6536,0,0,0,0
+Consumer,Chesapeake,Virginia,South,"Office Supplies",Fasteners,45,9,0,21.6,0,0,0,0
+Corporate,Chesapeake,Virginia,South,"Office Supplies",Binders,63.96,4,0,30.7008,0,0,0,0
+Consumer,Chesapeake,Virginia,South,"Office Supplies",Appliances,203.92,4,0,55.0584,0,0,0,0
+Consumer,Chesapeake,Virginia,South,"Office Supplies",Appliances,197.72,4,0,55.3616,0,0,0,0
+Consumer,Chesapeake,Virginia,South,Technology,Phones,29.56,4,0,7.9812,0,0,0,0
+Corporate,Chesapeake,Virginia,South,Technology,Phones,161.61,1,0,42.0186,0,0,0,0
+Corporate,Chesapeake,Virginia,South,Technology,Phones,144.95,5,0,42.0355,0,0,0,0
+Consumer,Chesapeake,Virginia,South,Technology,Machines,209.97,3,0,90.2871,0,0,0,0
+Consumer,Chesapeake,Virginia,South,Technology,Accessories,234.45,3,0,103.158,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,Furniture,Furnishings,6.696,1,0.2,0.5022,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,Furniture,Furnishings,43.872,2,0.2,11.5164,0,0,0,0
+Consumer,Chester,Pennsylvania,East,Furniture,Chairs,170.058,3,0.3,4.8588,0,0,0,0
+Consumer,Chester,Pennsylvania,East,Furniture,Chairs,853.93,5,0.3,0,0,0,0,0
+Corporate,Chester,Pennsylvania,East,"Office Supplies",Supplies,190.896,2,0.2,42.9516,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,"Office Supplies",Art,5.248,2,0.2,0.5904,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,"Office Supplies",Art,2.696,1,0.2,0.8088,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,"Office Supplies",Art,198.272,8,0.2,17.3488,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,"Office Supplies",Labels,47.36,4,0.2,17.76,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,"Office Supplies",Labels,97.696,4,0.2,31.7512,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,"Office Supplies",Envelopes,200.984,7,0.2,62.8075,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,"Office Supplies",Binders,18.588,2,0.7,13.6312,0,0,0,0
+Corporate,Chester,Pennsylvania,East,"Office Supplies",Binders,8.595,5,0.7,6.303,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,"Office Supplies",Binders,4.896,3,0.7,3.4272,0,0,0,0
+Consumer,Chester,Pennsylvania,East,Technology,Phones,82.782,3,0.4,15.1767,0,0,0,0
+"Home Office",Chester,Pennsylvania,East,Technology,Phones,35.91,3,0.4,8.379,0,0,0,0
+"Home Office",Cheyenne,Wyoming,West,Furniture,Chairs,1603.136,4,0.2,100.196,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Chairs,569.058,3,0.3,178.8468,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Bookcases,825.174,9,0.3,117.882,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Chairs,470.302,7,0.3,87.3418,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,526.344,4,0.3,75.192,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Bookcases,359.058,3,0.3,71.8116,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Bookcases,493.43,5,0.3,70.49,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,797.944,4,0.3,56.996,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,181.986,2,0.3,54.5958,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Bookcases,183.372,2,0.3,36.6744,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Chairs,844.116,6,0.3,36.1764,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Chairs,106.869,3,0.3,29.0073,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,127.386,2,0.3,25.4772,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,317.058,3,0.3,18.1176,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Chairs,213.115,5,0.3,15.2225,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,520.464,2,0.3,14.8704,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Bookcases,141.372,2,0.3,14.1372,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,170.072,4,0.3,12.148,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,421.372,2,0.3,6.0196,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,383.607,9,0.3,5.4801,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,359.772,2,0.3,5.1396,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Chairs,62.958,3,0.3,2.6982,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Chairs,89.768,1,0.3,2.5648,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Chairs,47.992,2,0.3,2.0568,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Bookcases,198.744,4,0.3,0,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Chairs,528.43,5,0.3,0,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Tables,765.625,7,0.5,566.5625,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Tables,480.96,3,0.5,269.3376,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Tables,219.075,3,0.5,131.445,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Tables,177.225,5,0.5,120.513,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Tables,214.95,5,0.5,120.372,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Tables,145.98,2,0.5,99.2664,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Tables,108.925,1,0.5,71.8905,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Tables,91.275,1,0.5,67.5435,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,419.68,5,0.6,356.728,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,159.04,5,0.6,194.824,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Furnishings,84.272,2,0.6,75.8448,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,51.56,2,0.6,61.872,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Furnishings,44.4,2,0.6,52.17,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,38.976,3,0.6,50.6688,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,64.96,5,0.6,43.848,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,94.428,3,0.6,42.4926,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,25.176,3,0.6,33.3582,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Furnishings,22.2,1,0.6,26.085,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,29.32,2,0.6,24.189,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,34.504,2,0.6,15.5268,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Furnishings,23.976,3,0.6,14.3856,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,24.288,3,0.6,12.7512,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,16.156,7,0.6,12.117,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Furnishings,14.224,2,0.6,10.3124,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,22.608,3,0.6,10.1736,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,22.608,3,0.6,10.1736,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,22.752,6,0.6,8.532,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,12.132,9,0.6,8.4924,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,10.984,2,0.6,7.9634,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,8.544,2,0.6,7.476,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,17.496,9,0.6,7.4358,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,8.856,3,0.6,6.8634,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,14.56,5,0.6,6.188,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,8.792,1,0.6,5.7148,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,10.776,3,0.6,4.8492,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,11.688,3,0.6,4.6752,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,6.464,1,0.6,4.04,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,4.044,3,0.6,2.8308,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,7.76,1,0.6,2.134,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,4.712,2,0.6,1.8848,0,0,0,0
+Consumer,Chicago,Illinois,Central,Furniture,Furnishings,5.584,2,0.6,1.6752,0,0,0,0
+"Home Office",Chicago,Illinois,Central,Furniture,Furnishings,2.032,1,0.6,1.3208,0,0,0,0
+Corporate,Chicago,Illinois,Central,Furniture,Furnishings,1.892,1,0.6,0.9933,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,331.536,3,0.2,82.884,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Storage,230.376,3,0.2,48.9549,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,235.92,5,0.2,44.235,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,195.136,4,0.2,43.9056,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Storage,164.736,4,0.2,39.1248,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,123.552,3,0.2,29.3436,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,97.984,2,0.2,24.496,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,82.368,2,0.2,19.5624,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,72.784,1,0.2,18.196,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,102.336,4,0.2,12.792,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,35.168,2,0.2,8.3524,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,646.2,5,0.2,8.0775,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,32.592,3,0.2,7.7406,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Storage,12.672,3,0.2,3.168,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Supplies,8.72,5,0.2,1.744,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Art,3.536,2,0.2,0.3094,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Art,5.304,3,0.2,0.4641,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Fasteners,2.896,2,0.2,0.4706,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Art,6.408,3,0.2,0.6408,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,5.344,2,0.2,0.668,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,6.912,3,0.2,0.6912,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Art,6.912,3,0.2,0.864,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Art,7.872,3,0.2,0.8856,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,8.016,3,0.2,1.002,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,19.152,2,0.2,1.197,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,7.408,2,0.2,1.2038,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,3.808,1,0.2,1.2376,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,13.392,3,0.2,1.5066,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Supplies,20.568,3,0.2,1.5426,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,24.816,2,0.2,1.551,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,21.488,2,0.2,1.6116,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,21.568,2,0.2,1.6176,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,5.248,4,0.2,1.64,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,5.184,1,0.2,1.8144,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,5.184,1,0.2,1.8144,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Fasteners,6.976,4,0.2,1.8312,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Art,29.76,5,0.2,1.86,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Labels,5.904,2,0.2,1.9926,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Art,16.52,5,0.2,2.065,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Labels,6,2,0.2,2.1,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Art,19.456,4,0.2,2.1888,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,7.056,3,0.2,2.205,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Art,7.056,3,0.2,2.205,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Envelopes,7.072,2,0.2,2.3868,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Fasteners,7.896,3,0.2,2.4675,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Fasteners,7.104,6,0.2,2.4864,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Supplies,22.24,2,0.2,2.502,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Supplies,22.344,3,0.2,2.5137,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,8.448,2,0.2,2.64,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,27.384,7,0.2,2.7384,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Envelopes,7.824,1,0.2,2.934,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,8.448,2,0.2,2.9568,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Art,8.84,5,0.2,2.9835,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Supplies,40.92,5,0.2,3.069,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Labels,9.248,4,0.2,3.1212,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,13.392,3,0.2,3.1806,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Envelopes,9.912,3,0.2,3.2214,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Art,13.568,4,0.2,3.2224,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Fasteners,10.528,4,0.2,3.29,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,8.904,3,0.2,3.339,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,9.248,2,0.2,3.3524,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,10.896,3,0.2,3.405,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,27.72,3,0.2,3.465,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Art,15.76,2,0.2,3.546,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,11.424,3,0.2,3.7128,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,10.688,2,0.2,3.7408,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Labels,11.952,3,0.2,3.8844,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,53.92,5,0.2,4.044,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Labels,11.52,5,0.2,4.176,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,61.568,2,0.2,4.6176,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Envelopes,13.984,2,0.2,4.7196,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Fasteners,15.12,5,0.2,4.914,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,15.984,2,0.2,4.995,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,15.696,3,0.2,5.1012,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,15.552,3,0.2,5.4432,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,17.76,3,0.2,5.55,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Fasteners,16,4,0.2,5.6,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Fasteners,16,4,0.2,5.6,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,15.552,3,0.2,5.6376,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,17.472,3,0.2,5.6784,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,60.416,2,0.2,6.0416,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,20.544,6,0.2,6.42,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Labels,20.16,4,0.2,6.552,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,19.136,4,0.2,6.9368,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,20.736,4,0.2,7.2576,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,102.624,3,0.2,7.6968,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,25.344,6,0.2,7.92,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Labels,24.424,1,0.2,7.9378,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,23.12,5,0.2,8.381,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,23.52,5,0.2,8.526,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,69.712,2,0.2,8.714,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,26.72,5,0.2,9.352,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,25.92,5,0.2,9.396,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,30.528,8,0.2,9.54,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Labels,29.24,5,0.2,9.8685,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,132.16,1,0.2,9.912,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,36.352,8,0.2,11.36,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,35.856,9,0.2,12.9978,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,38.432,1,0.2,13.4512,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,228.92,5,0.2,14.3075,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Storage,250.272,9,0.2,15.642,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,45.528,3,0.2,15.9348,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,54.816,3,0.2,17.8152,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,56.704,2,0.2,19.1376,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,63.312,3,0.2,20.5764,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Envelopes,55.584,6,0.2,20.844,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,62.016,2,0.2,22.4808,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,64.624,7,0.2,22.6184,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,65.584,2,0.2,23.7742,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,73.008,9,0.2,26.4654,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Storage,505.32,3,0.2,31.5825,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,290.336,2,0.2,32.6628,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Paper,124.032,4,0.2,44.9616,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,1036.624,2,0.2,51.8312,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,156.512,4,0.2,52.8228,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Paper,173.488,7,0.2,54.215,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Storage,1297.368,9,0.2,97.3026,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,313.488,7,0.2,113.6394,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Paper,419.4,5,0.2,146.79,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Binders,1889.99,5,0.8,2929.4845,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Binders,762.594,3,0.8,1143.891,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Appliances,180.98,5,0.8,470.548,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Appliances,143.128,2,0.8,393.602,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Appliances,92.064,6,0.8,225.5568,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Appliances,73.176,6,0.8,197.5752,0,0,0,0
+"Home Office",Chicago,Illinois,Central,"Office Supplies",Binders,104.58,9,0.8,172.557,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Appliances,75.6,2,0.8,166.32,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Appliances,58.464,9,0.8,146.16,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Appliances,52.448,2,0.8,131.12,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Appliances,48.792,3,0.8,126.8592,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Appliances,53.088,7,0.8,108.8304,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Appliances,26.406,3,0.8,71.2962,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Binders,42.616,7,0.8,68.1856,0,0,0,0
+Corporate,Chicago,Illinois,Central,"Office Supplies",Binders,44.848,8,0.8,67.272,0,0,0,0
+Consumer,Chicago,Illinois,Central,"Office Supplies",Appliances,23.992,2,0.8,62.3792,0,0,0,0
