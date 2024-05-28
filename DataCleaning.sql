@@ -3,6 +3,7 @@
 -- Remove duplicates -- 
 -- Standardize format --
 -- remove outliers-- 
+-- remove unncessary rows & columns 
 -- save the cleaned data and plug it in PowerBI
 
 Select * from retailsales;
@@ -51,3 +52,128 @@ SET SQL_SAFE_UPDATES = 0;
 DELETE 
 from sales_staging2 
 WHERE row_num>1
+SELECT City From sales_staging2
+SELECT Ship_Mode From sales_staging2
+SELECT Segment From sales_staging2
+-- assume that our data is not normally distributed --
+-- we use IQR to find out outliers --
+-- Step 1: Calculate the IQR for Sales and Profit
+WITH sales_stats AS (
+    SELECT 
+        PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY Sales) AS Q1_Sales,
+        PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY Sales) AS Q3_Sales,
+        PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY Profit) AS Q1_Profit,
+        PERCENTILE_CONT(0.75) WITHIN GROUP (ORDER BY Profit) AS Q3_Profit
+    FROM sales_staging2
+),
+iqr_stats AS (
+    SELECT 
+        Q1_Sales, 
+        Q3_Sales, 
+        Q3_Sales - Q1_Sales AS IQR_Sales,
+        Q1_Profit, 
+        Q3_Profit, 
+        Q3_Profit - Q1_Profit AS IQR_Profit
+    FROM sales_stats
+)
+-- Step 2: Identify Outliers Based on the Calculated IQR
+SELECT 
+    s.*,
+    CASE 
+        WHEN s.Sales < Q1_Sales - 1.5 * IQR_Sales THEN 'Low Sales Outlier'
+        WHEN s.Sales > Q3_Sales + 1.5 * IQR_Sales THEN 'High Sales Outlier'
+        ELSE NULL 
+    END AS Sales_Outlier,
+    CASE 
+        WHEN s.Profit < Q1_Profit - 1.5 * IQR_Profit THEN 'Low Profit Outlier'
+        WHEN s.Profit > Q3_Profit + 1.5 * IQR_Profit THEN 'High Profit Outlier'
+        ELSE NULL 
+    END AS Profit_Outlier
+FROM 
+    sales_staging2 s, 
+    iqr_stats
+WHERE 
+    s.Sales < Q1_Sales - 1.5 * IQR_Sales
+    OR s.Sales > Q3_Sales + 1.5 * IQR_Sales
+    OR s.Profit < Q1_Profit - 1.5 * IQR_Profit
+    OR s.Profit > Q3_Profit + 1.5 * IQR_Profit;
+
+WITH sales_percentiles AS (
+    SELECT 
+        Sales,
+        Profit,
+        NTILE(4) OVER (ORDER BY Sales) AS sales_quartile,
+        NTILE(4) OVER (ORDER BY Profit) AS profit_quartile
+    FROM 
+        sales_staging2
+),
+quartiles AS (
+    SELECT 
+        MIN(Sales) AS q1_sales,
+        MAX(Sales) AS q3_sales,
+        MIN(Profit) AS q1_profit,
+        MAX(Profit) AS q3_profit
+    FROM 
+        sales_percentiles
+    WHERE 
+        sales_quartile IN (1, 3)
+        OR profit_quartile IN (1, 3)
+),
+iqr_stats AS (
+    SELECT 
+        q1_sales,
+        q3_sales,
+        q3_sales - q1_sales AS iqr_sales,
+        q1_profit,
+        q3_profit,
+        q3_profit - q1_profit AS iqr_profit
+    FROM 
+        quartiles
+)
+-- Step 2: Identify outliers based on IQR
+SELECT 
+    s.*,
+    CASE 
+        WHEN s.Sales < q1_sales - 1.5 * iqr_sales THEN 'Low Sales Outlier'
+        WHEN s.Sales > q3_sales + 1.5 * iqr_sales THEN 'High Sales Outlier'
+        ELSE NULL 
+    END AS Sales_Outlier,
+    CASE 
+        WHEN s.Profit < q1_profit - 1.5 * iqr_profit THEN 'Low Profit Outlier'
+        WHEN s.Profit > q3_profit + 1.5 * iqr_profit THEN 'High Profit Outlier'
+        ELSE NULL 
+    END AS Profit_Outlier
+FROM 
+    sales_staging2 s, 
+    iqr_stats
+WHERE 
+    s.Sales < q1_sales - 1.5 * iqr_sales
+    OR s.Sales > q3_sales + 1.5 * iqr_sales
+    OR s.Profit < q1_profit - 1.5 * iqr_profit
+    OR s.Profit > q3_profit + 1.5 * iqr_profit;
+-- there is no outliers by sales and profit --
+-- we will drop country because the only country here is US--
+ALTER TABLE sales_staging2
+DROP COLUMN Country
+ALTER TABLE sales_staging2
+DROP COLUMN Postal_Code
+-- drop postal code because postal code will contribute nothing to our visualization -- 
+select * from sales_staging2
+-- I want to create binary columns for ship_mode so it's easy for our EDA -- 
+ALTER TABLE sales_staging2
+ADD COLUMN First_Class TINYINT(1) DEFAULT 0,
+ADD COLUMN Second_Class TINYINT(1) DEFAULT 0,
+ADD COLUMN Standard_Class TINYINT(1) DEFAULT 0,
+ADD COLUMN Same_Day TINYINT(1) DEFAULT 0;
+SET SQL_SAFE_UPDATES = 0;
+UPDATE sales_staging2 
+SET 
+First_Class= Case when 'Ship_Mode'='First Class' Then 1 else 0 end, 
+Second_Class= Case when 'Ship_Mode'='Second Class' Then 1 else 0 end, 
+Standard_Class= Case when 'Ship_Mode'='Standard Class' Then 1 else 0 end,
+Same_Day= Case when 'Ship_Mode'='Same Day' Then 1 else 0 end;
+ALTER TABLE sales_staging2
+DROP COLUMN `Ship Mode`;
+ALTER TABLE sales_staging2
+DROP COLUMN  row_num;
+select * from sales_staging2
