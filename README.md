@@ -37,6 +37,3 @@ The Retail Sales dataset provides comprehensive information on sales transaction
 ## CHARTS 
 - Identify top-performing product categories and subcategories based on sales revenue and profit margins.
 - Analyze sales performance across different regions (cities and states) to identify high-potential markets and target demographics.
-- Evaluate the effectiveness of discount strategies on sales and profitability.
-- Explore correlations between various factors such as sales, discounts, and profits to optimize pricing and promotion strategies.
-- Identify trends and seasonality patterns in sales data to optimize inventory management and marketing campaigns.
