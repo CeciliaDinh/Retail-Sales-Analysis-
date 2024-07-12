@@ -4,3 +4,6 @@
 - Used preprocessed data to create interactive Sales Performances, RFM Analysis Dashboard by Power BI 
 - Tools: Python, Power BI
 ## Installation
+Please clone this git respiratory: https://github.com/CeciliaDinh/Retail-Sales-Analysis-Visualization.git
+## Power BI dashboard
+![Sales Performance Dashboard](image.png)
