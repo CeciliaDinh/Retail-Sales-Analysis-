@@ -57,4 +57,4 @@ This project aims to derive actionable insights from a dataset of orders to addr
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/sales-performance-rfm-analysis.git
+   https://github.com/CeciliaDinh/Retail-Sales-Analysis-Visualization.git
