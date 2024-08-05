@@ -3,15 +3,14 @@
 ## Project Overview
 
 This project aims to derive actionable insights from a dataset of orders to address low profit margins and optimize revenue. By performing a sales performance analysis and RFM (Recency, Frequency, Monetary) analysis, we provide a comprehensive overview of key factors affecting revenue and profit. The findings will help shareholders and founders prioritize improvements on critical aspects of the business.
-
 ## Business Questions: Why is our profit so low compared to our revenue and total products sold?
 
 ## Situation
 
 - Only 12% of revenue is converted into gross profit (average profit margin of 12%).
 - Profit margins vary significantly among products: some are highly profitable (up to 50%), while others incur losses (up to -200%).
-
-## Proposed Solutions
+## Dashboard Overview 
+## Proposed Plans 
 
 1. **Identify Key Sales Trends and Top-Performing Products**
    - **Approach 1: Optimize High-Contributing Products**
@@ -28,7 +27,7 @@ This project aims to derive actionable insights from a dataset of orders to addr
    - **Method:** Identify the top 20% of customers contributing the most to revenue.
    - **Objective:** Understand their preferences and enhance customer loyalty.
    - **Action:** Discover their favorite products, implement targeted loyalty programs, and improve customer service to retain these valuable customers.
-
+### Business Recommendations: 
 ## Detailed Approach
 
 1. **Dataset Overview**
