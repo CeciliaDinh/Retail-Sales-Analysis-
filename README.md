@@ -52,7 +52,9 @@ This project aims to derive actionable insights from a dataset of orders to addr
    2. **Customer Segmentation:**
 
 
-
+### Optimization (In Progress):
+- Implement Spark, and Python's API in Spark- Pyspark to transform, and query data with the Spark Sql
+- Ultize AutoML to clean, preprocess data, and choose top 5 best fit model with it=> Print out the performance metrics of these models
 ## Getting Started
 
 1. **Clone the Repository:**
