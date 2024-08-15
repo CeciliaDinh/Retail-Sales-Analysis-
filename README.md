@@ -44,12 +44,13 @@ This project aims to derive actionable insights from a dataset of orders to addr
    - **Recency:** Measure the time since the last purchase to identify recent vs. long-term customers.
    - **Frequency:** Calculate the number of purchases to segment customers based on purchasing behavior.
    - **Monetary:** Assess the total spending of customers to determine high-value customers.
-4. ***K-means Clustering**: 
+4. ***K-means Clustering**:
+   - Segment customer into 4 cohorts by RFM metrics: Best Customer, Loyal Customer, Potential Customer, and At Risk. Provide insights regarding purchasing behaviors of customer groups by identify what are their favorite products, and time to purchase. 
 4. **Power BI Dashboards**
      1. **Sales Performance Dashboard**:
        A. **Dashboard Overview**
        B. **Charts**
-   2. **Customer Segmentation:**
+   2. **Customer Behaviors Dashboard:**
 
 
 ### Optimization (In Progress):
