@@ -5,6 +5,7 @@
 This project aims to derive actionable insights from a dataset of orders to address low profit margins and optimize revenue. By performing a sales performance analysis and RFM (Recency, Frequency, Monetary) analysis, we provide a comprehensive overview of key factors affecting revenue and profit. The findings will help shareholders and founders prioritize improvements on critical aspects of the business.
 ## Business Questions: 
 - Why is our profit so low compared to our revenue and total products sold?
+- What defines our customers, which class each of them fall in, what are their favorite products, or times to buy
 ## Situation
 - Only 12% of revenue is converted into gross profit (average profit margin of 12%).
 - Profit margins vary significantly among products: some are highly profitable (up to 50%), while others incur losses (up to -200%).
