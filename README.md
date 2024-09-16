@@ -4,6 +4,7 @@
 
 This project aims to derive actionable insights from a dataset of orders to address low profit margins and optimize revenue. By performing a sales performance analysis and RFM (Recency, Frequency, Monetary) analysis, we provide a comprehensive overview of key factors affecting revenue and profit. The findings will help shareholders and founders prioritize improvements on critical aspects of the business.
 ## Business Questions: 
+- What are the key factors affecting our revenue and profit?
 - Why is our profit so low compared to our revenue and total products sold?
 - What defines our customers, which class each of them fall in, what are their favorite products, or times to buy
 ## Situation
