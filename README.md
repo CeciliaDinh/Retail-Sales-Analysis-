@@ -1,6 +1,11 @@
 # A Comprehensive Performance And User Demographic Analysis Of An Online Retail Store
-
+# Author: DINH THI THANH HANG
+# Table Of Contents
+[Project Overview](#Project Overview)
+[Installation](#Installation)
+[Data Excecutive Summary & Solutions](#Data Excecutive Summary & Solutions)
 ## Project Overview
+## Installation: 
+# Đata Excecutive Summary & Solutions 
 
-This project aims to derive actionable insights from a dataset of orders to address low profit margins and optimize revenue. By performing a sales performance analysis and RFM (Recency, Frequency, Monetary) analysis, we provide a comprehensive overview of key factors affecting revenue and profit. The findings will help shareholders and founders prioritize improvements on critical aspects of the business.
-## Situation
+
