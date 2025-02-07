@@ -2,10 +2,10 @@
 # Author: DINH THI THANH HANG
 # Table Of Contents
 [Project Overview](#Project Overview)
-[Installation](#Installation)
+[Installation](#Installation) 
 [Data Excecutive Summary & Solutions](#Data Excecutive Summary & Solutions)
 ## Project Overview
 ## Installation: 
-# Đata Excecutive Summary & Solutions 
+# Data Excecutive Summary & Solutions 
 
 
