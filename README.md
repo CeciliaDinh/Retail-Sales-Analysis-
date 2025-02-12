@@ -27,8 +27,5 @@ The insights derived from this project will assist stakeholders in making data-d
 To run this project locally, ensure you have the following dependencies installed:
 
 ### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/your-repository-link.git
-cd your-project-folder
 
 
