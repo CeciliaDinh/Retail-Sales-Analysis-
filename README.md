@@ -32,52 +32,9 @@ Despite having a decent revenue stream, the store suffers from low profit margin
    - Use clustering & PCA to identify behavior-driven customer personas  
    - Design sales/loyalty programs tailored to each segment
 
----
 
-## 📊 Key Analyses
+## Summary Of Insights 
 
-### 1. 📈 Revenue Analysis
-- ABC Analysis
-- Product Profitability Matrix (Revenue vs Profit Margin)
 
-### 2. 💸 Discount Effectiveness
-- Correlation between discount and quantity/sales/profit
-- Deep dive into:
-  - Top 10 loss-making products at 80% discount
-  - Orders with bulk quantity but negative profit
-- Discount ROI framework: Revenue uplift vs Cost of discount
-
-### 3. 👥 Customer Behavior
-- RFM Analysis
-- Behavioral Clustering using PCA + KMeans
-- Discount Dependency Scoring
-- Repeat Rate comparison: With vs Without Voucher
-
----
-
-## ✅ Outcomes
-
-- List of products to promote/scale without discounts
-- Thresholds for profitable vs loss-making discount levels
-- Revised voucher policy for deal-hunters vs loyal customers
-- Segmented customer base with tailored loyalty strategy
-
----
-
-## 📂 Folder Structure
-
-project/
-│
-├── data/
-│   └── raw/clean/processed/
-├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Revenue_Analysis.ipynb
-│   ├── 03_Discount_Analysis.ipynb
-│   ├── 04_Behavioral_Clustering.ipynb
-│   └── 05_Recommendation_Plan.ipynb
-├── reports/
-│   └── final_summary.pdf
-└── README.md
 
 
