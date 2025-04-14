@@ -34,6 +34,7 @@ Despite having a decent revenue stream, the store suffers from low profit margin
    - Go beyond the default segments (Consumer, Corporate, Home Office)  
    - Use clustering & PCA to identify behavior-driven customer personas  
    - Design sales/loyalty programs tailored to each segment
+   - Why K-means Clustering & PCA? -> Some B2B-like consumer customer -> RFM may be bias-> K-means learn customer behaviors & RFM metrics 
 
 
 ## Summary Of Insights 
@@ -137,6 +138,7 @@ Despite having a decent revenue stream, the store suffers from low profit margin
   - Value-added incentives
   - Long-term loyalty programs
 
+### New Segment Of Consumer Segment Summary: 
 
 
 
