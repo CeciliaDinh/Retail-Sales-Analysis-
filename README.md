@@ -129,7 +129,11 @@ Despite having a decent revenue stream, the store suffers from low profit margin
   - Who uses **high-discount vouchers**? Do they repurchase?
   - Are **high-voucher products** profitable?
 
-- 🧬
+- 🧬 Build **personalized campaigns**:
+  - Smart discounts by segment
+  - Value-added incentives
+  - Long-term loyalty programs
+
 
 
 
