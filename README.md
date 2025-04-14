@@ -7,7 +7,8 @@ This project aims to analyze 4 years of transactional data from a retail store, 
 ---
 
 ## 🔍 Business Context
-
+- This online retail store sells 3 product categories: Furniture, Office Supplies, Technology for 3 customer segment: Consumer (B2B customer), and B2B customer groups such as Corporate and Home Office. 
+- B2C customer has been purchasing over a long period of time, but B2B is relatively new compared to B2C 
 Despite having a decent revenue stream, the store suffers from low profit margins (currently ~12%). Initial analysis shows:
 
 - Discounts increase quantity purchased (positive Pearson correlation),
