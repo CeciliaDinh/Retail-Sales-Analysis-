@@ -1,4 +1,6 @@
 # 🧠 Retail Profit Optimization Project
+# Author: Dinh Thi Thanh Hang
+
 
 This project aims to analyze 4 years of transactional data from a retail store, identify profitability issues, and generate actionable strategies to maximize profit.
 
