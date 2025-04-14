@@ -83,7 +83,54 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 - Focus on **seasonal marketing** during peak months (e.g., back-to-school, Black Friday).
 - Explore **loyalty programs** for repeat customers.
 
+# 📉 Discount Campaigns Insights
+
+## 🔍 Overall Findings
+
+- **High Discounts (>20%)** lead to **significant profit loss** (avg. -78.45%) and unsustainable break-even volumes (4,458+ units).  
+  ⛔ Should be eliminated unless clearing old stock.
+
+- **Medium Discounts (10–20%)** offer the **best balance** between sales volume and profitability  
+  ✅ Avg. margin: +17.48% – highest revenue overall.
+
+- **Low Discounts (<10%)** maintain positive margins (15.58%)  
+  ⚠️ But have limited impact on sales volume.
+
+- **No Discount** yields the **highest profit margin** (34.02%) and strong revenue  
+  💰 Many products perform well without promotions.
+
 ---
+
+## 🧩 Category-Specific Recommendations
+
+### 🛋️ Furniture
+- Avoid high discounts (unsustainable).
+- Use value-added offers: *free delivery, free assembly*.
+- Customers are willing to pay full price for quality.
+
+### 🗂️ Office Supplies
+- Avoid high discounts (worst performance: -122.15% margin).
+- Use **medium discounts** to boost volume.
+- Alternative: bulk-buy incentives (e.g. *Buy 3 Get 1 Free*).
+
+### 💻 Technology
+- No/Medium Discounts perform similarly in revenue.
+- High Discounts manageable only for old models.
+- Better strategy: add value (*extended warranty, trade-in*).
+
+---
+
+## 🚀 Next Steps
+
+- 🎯 Shift focus to **Medium Discounts** for customer acquisition.
+- 🔁 Transition to **loyalty programs** to retain customers.
+- 🧠 Analyze:
+  - Which products sell well **without discounts**?
+  - Who uses **high-discount vouchers**? Do they repurchase?
+  - Are **high-voucher products** profitable?
+
+- 🧬
+
 
 
 
