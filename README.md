@@ -112,19 +112,15 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 ## 🧩 Category-Specific Recommendations
 
 ### 🛋️ Furniture
-- Avoid high discounts (unsustainable).
-- Use value-added offers: *free delivery, free assembly*.
-- Customers are willing to pay full price for quality.
+- Avoid high discounts because Furniture has lowest profit margin 
 
 ### 🗂️ Office Supplies
-- Avoid high discounts (worst performance: -122.15% margin).
-- Use **medium discounts** to boost volume.
-- Alternative: bulk-buy incentives (e.g. *Buy 3 Get 1 Free*).
+- Avoid high discounts because although Office Supplies have highest profit margin ()
 
 ### 💻 Technology
-- No/Medium Discounts perform similarly in revenue.
-- High Discounts manageable only for old models.
-- Better strategy: add value (*extended warranty, trade-in*).
+-
+- 
+- 
 
 ---
 
@@ -171,16 +167,16 @@ Flagship products contributing significantly to both **revenue and profitability
 - Design **smart bundles** to increase AOV using accessories like binders & shredders.
 - Launch **B2B acquisition strategy** targeting enterprises with bulk office equipment needs.
 
+### New Customer Segments: 
+1. **Price-sensitive, Deal Hunters**: Only buy Office Supplies in bulk with discount up to 80%. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
 
-### New Segment Of Consumer Segment Characteristics & Recommendations: 
-1. Potential VIP Or Reseller Procurement:New customers, with high value order, high order frequency. Order delivered to different cities, states, and regions, high willingness to pay (buy with no or low discounts), often buy Office Supplies (binder, copier) (product category with higest-margin)
-**Outstanding Representative Of This Segment**
- - Maribeth Schnelling (riêng khách này có 2 đơn được giảm lên tới 80% giá trị đơn hàng, cần cross-check lại và xem lý do tại sao)
- - Clay Ludtke
-2. New Customer, Second Highest M, Highest M. Willing To Buy With No Discount. Often Buy Office Supplies 
-**Outstanding Representative Of This Segment**
-- Sanjit Chand
-3. New Customer, Deal Hunters-like Behavior, Only Buy When High Discount >20%. Often Buy Office Supplies 
 
 
 
