@@ -36,9 +36,10 @@ Despite having a decent revenue stream, the store suffers from low profit margin
    - Design sales/loyalty programs tailored to each segment
    - Why K-means Clustering & PCA? -> Some B2B-like consumer customer -> RFM may be bias-> K-means learn customer behaviors & RFM metrics 
 
+## Dashboard Overview 
 
 ## Summary Of Insights 
-# Best-selling Products Breakdown By Customer Segment
+# Customer Demographics 
 
 ## 1. Consumer Segment: High Sales Volume & Practical Utility
 - **Top Products**: 
@@ -86,6 +87,9 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 - **Bundle complementary products** (e.g., ergonomic chair + printer).
 - Focus on **seasonal marketing** during peak months (e.g., back-to-school, Black Friday).
 - Explore **loyalty programs** for repeat customers.
+# Product Insights: 
+1. Top-performing (20% of products that contributes to profit & sales ). Need to scale, and highly focus
+2. Products with high-margin. Try to increase revenue by bundle it with good sales & low-profit margin ones 
 
 # 📉 Discount Campaigns Insights
 
@@ -138,7 +142,46 @@ Despite having a decent revenue stream, the store suffers from low profit margin
   - Value-added incentives
   - Long-term loyalty programs
 
-### New Segment Of Consumer Segment Summary: 
+## 📊 Product Analysis Insights
+
+### 🔹 Category-Level Performance
+- **Office Supplies**: Highest profit margin (**29.5%**). Ideal for bundling and B2B campaigns.
+- **Technology**: Highest revenue generator with strong margin (**~28.9%**). Focused marketing recommended; avoid deep discounts to protect profitability.
+- **Furniture**: Popular but lowest profit margin (**21.3%**). Recommend **value-added perks** (free delivery, installation) instead of discounts.
+
+### 🔹 Strategic Opportunities
+- Cross-sell **high-margin products** (Office Supplies, Technology) with popular but low-margin items (Furniture).
+- Segment customers by behavior and product interest to tailor **retention & upsell strategies**.
+- Reevaluate Furniture pricing and supply chain costs to **optimize margins** without relying on discounts.
+
+### 🔹 High-Margin, High-Impact Products
+Flagship products contributing significantly to both **revenue and profitability**:
+
+| Product                            | Revenue   | Profit Margin |
+|------------------------------------|-----------|----------------|
+| Canon imageCLASS 2200              | $123K     | ~38%           |
+| Fellowes PB500 Electric Punch      | $50K      | ~44%           |
+| HP LaserJet 3310                   | $37K      | ~33%           |
+| GBC / Ibico / Ativa Binding Tools  | Varies    | 32–49%         |
+
+> 💡 These products are ideal for **B2B targeting**, **bundling strategies**, and **campaign prioritization**.
+
+### ✅ Recommended Actions
+- Focus marketing campaigns on top 3 high-margin, high-sales products.
+- Design **smart bundles** to increase AOV using accessories like binders & shredders.
+- Launch **B2B acquisition strategy** targeting enterprises with bulk office equipment needs.
+
+
+### New Segment Of Consumer Segment Characteristics & Recommendations: 
+1. Potential VIP Or Reseller Procurement:New customers, with high value order, high order frequency. Order delivered to different cities, states, and regions, high willingness to pay (buy with no or low discounts), often buy Office Supplies (binder, copier) (product category with higest-margin)
+**Outstanding Representative Of This Segment**
+ - Maribeth Schnelling (riêng khách này có 2 đơn được giảm lên tới 80% giá trị đơn hàng, cần cross-check lại và xem lý do tại sao)
+ - Clay Ludtke
+2. New Customer, Second Highest M, Highest M. Willing To Buy With No Discount. Often Buy Office Supplies 
+**Outstanding Representative Of This Segment**
+- Sanjit Chand
+3. New Customer, Deal Hunters-like Behavior, Only Buy When High Discount >20%. Often Buy Office Supplies 
+
 
 
 
