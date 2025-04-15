@@ -112,16 +112,17 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 ## 🧩 Category-Specific Recommendations
 
 ### 🛋️ Furniture
-- Avoid high discounts because Furniture has lowest profit margin 
+- Avoid high discounts because Furniture already has lowest profit margin
+- Main customer usually B2B customer, so instead of price, we have to priotize on building relationships such as gifts on special occasion, and after-buy/ after-care service 
+- We can create bundle campaigns to sell Furniture & Office Supplies for Home Offices segment or Corporate as high demand for these two categories in recent year, and 
+Office Supplies has higher profit margin 
 
 ### 🗂️ Office Supplies
-- Avoid high discounts because although Office Supplies have highest profit margin ()
+- Avoid high discounts because although Office Supplies have highest profit margin (**29.5%**), many high loss orders come from this category often with discount voucher up to 80% of bulk orders from a segment of consumer exihibit B2B-like purchasing habits and may use the tricks to pass our B2B discount campaign 
 
 ### 💻 Technology
--
-- 
-- 
-
+- Can give 5%-10% discount to activate long-time/ churn customer to get them buy again
+- Create campagins such as buy mouse+ monitor+ screen then free installation+ after-care  service 
 ---
 
 ## 🚀 Next Steps
