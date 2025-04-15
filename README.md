@@ -168,15 +168,6 @@ Flagship products contributing significantly to both **revenue and profitability
 - Design **smart bundles** to increase AOV using accessories like binders & shredders.
 - Launch **B2B acquisition strategy** targeting enterprises with bulk office equipment needs.
 
-### New Customer Segments: 
-1. **Price-sensitive, Deal Hunters**: Only buy Office Supplies in bulk with discount up to 80%. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
 
 
 
