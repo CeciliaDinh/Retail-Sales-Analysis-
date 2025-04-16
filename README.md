@@ -167,7 +167,34 @@ Flagship products contributing significantly to both **revenue and profitability
 - Focus marketing campaigns on top 3 high-margin, high-sales products.
 - Design **smart bundles** to increase AOV using accessories like binders & shredders.
 - Launch **B2B acquisition strategy** targeting enterprises with bulk office equipment needs.
+## 📊 Segment Overview
 
+- **Cluster 0 – Premium Deal Hunters**  
+  Buy only with heavy discounts (~80%). High order value but negative profit. Mostly new customers. Purchase: Appliances, Machines, Binders.
+
+- **Cluster 1 – Loyal Office Veterans**  
+  Long-time customers from the East region. Buy Office Supplies with or without discounts. High monetary, low recent activity.
+
+- **Cluster 2 – South Savvy Shoppers**  
+  Buy Furniture & Office Supplies from the South. Accept low or no discounts. High profit, better recency.
+
+- **Cluster 3 – West Furniture Fans**  
+  Furniture buyers from the West. Accept mid-range or no discounts. Good frequency and profit.
+
+- **Cluster 4 – Stable West Office Buyers**  
+  Office Supplies buyers from the West. Prefer <20% discounts or none. Few unprofitable orders, moderate profit.
+
+- **Cluster 5 – Premium Central Buyers**  
+  Strong RFM across the board. Buy Office Supplies from Central. High profit, low loss rate, discount-insensitive.
+
+- **Cluster 6 – Tech Bargain Spikers**  
+  Only buy Technology with deep discounts (~70%). Low R and F, some extreme loss orders.
+
+- **Cluster 7 – Frequent Losers**  
+  High R and F but low M. Many loss-making orders. Buy Furniture in Central & East with up to 60% discount.
+
+- **Cluster 8 – Golden Newcomers**  
+  New customers with high recency. No discounts used. Buy Office Supplies + Technology. Highest sales and profit.
 
 
 
