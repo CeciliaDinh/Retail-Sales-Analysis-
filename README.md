@@ -89,6 +89,7 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 - Revenue grew steadily: $1.7K (Jan 2015) → $4.3K (Jan 2017).
 - Peak: $23.7K on Nov 1, 2017 → 3× YoY.
 **Actions:** Analyze Nov 2017 spike – promo, product launch, or seasonal trend? Target Mar, Sep, Nov with bundle deals (e.g., Laptop + Accessories).
+  
 **Office Supplies** Strong YoY growth; reliable 2nd-best category. $1.0K (Jan 2015) → $5.8K (Jan 2017), doubling YoY.
 - **Outlier:** Aug 2017 hit $14K, despite zero Aug sales in prior years.
 
@@ -112,6 +113,7 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 **Technology**Rapid growth observed from 2016–2017. Jan 2016 → Sep 2017: $946 → $5.9K → 6× YoY growth. Peak at $19.9K in Sep 2017 (2.5× vs. Sep 2016).
 - Historic outlier: $26K in Mar 2014 — unmatched since.
 **Action:** - Deep-dive into Mar 2014 & Sep 2017 spikes to identify triggers (e.g., promos, B2B deals). Replicate timing and offer structure.
+  
 **Office Supplies** - Spiked in Sep 2016 ($9.2K) but dropped to $5.1K in Sep 2017 and declined further by year-end.
 **Action:**
 - Investigate demand drop — was it saturation, product gaps, or marketing lapse?
