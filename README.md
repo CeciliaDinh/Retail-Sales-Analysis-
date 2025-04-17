@@ -8,7 +8,7 @@ This project aims to analyze 4 years of transactional data from a retail store, 
 
 ## 🔍 Business Context
 - This online retail store sells 3 product categories: Furniture, Office Supplies, Technology for 3 customer segment: Consumer (B2B customer), and B2B customer groups such as Corporate and Home Office. 
-- B2C customer has been purchasing over a long period of time, but B2B is relatively new compared to B2C 
+- B2C customer has been purchasing over a long period of time (**Average Customer Tenure/ Active Time= 1434 days**), but B2B (**Average Customer Tenure is around 1000 days**) is relatively new compared to B2C 
 Despite having a decent revenue stream, the store suffers from low profit margins (currently ~12%). Initial analysis shows:
 
 - Discounts increase quantity purchased (positive Pearson correlation),
@@ -41,7 +41,7 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 ## Summary Of Insights 
 # Customer Demographics 
 
-## 1. Consumer Segment: High Sales Volume & Practical Utility
+## 1. Consumer Segment: Core revenue driven with 4x higher revenue than the other 2 segments, follows a seasonal pattern with peaks in March, May, September, and October. Reached 20K in March 2017, Sep-Oct 2017, May 2016, Sep-Oct 2016, Sep-Oct 2015, Sept 2014
 - **Top Products**: 
   - Canon imageCLASS 2200 Copier: **33K sales**
   - HP DesignJet T520 Printer
@@ -54,9 +54,26 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 - Launch seasonal campaigns: *Back to School*, *Work-from-Home Setup*.
 - Consider **subscription models** for consumables.
 
+**Consumer Segment Breakdown By Product Category**
+- **Office Supplies** Sales jumped from <$5K/month (2014–2015) to $19.9K in Jan 2017 – 10x YoY growth. Now contributes 30%+ of consumer revenue during peak months.
+
+- Launch Sep–Jan bundles (e.g., Notebooks + Organizers).
+
+- Target repeat small-ticket buyers and SME bulk orders.
+
+- **Furniture** Revenue spikes in Sep, Oct, Dec (e.g., $22.17K on Dec 1, 2016 vs. $3.6K in Jan).Strong seasonal pattern tied to workspace refresh & holiday sales.
+- Push high-margin Q4 bundles (Desk + Chair).
+- Align promos with major sales events.
+- Avoid discounting low-margin SKUs.
+**Technology**  High-value surges in May & Sep (e.g., $20.7K in May 2016, $23K Oct 2014).Driven by academic cycles and onboarding waves.
+- Retarget students & hybrid workers in Apr/Aug.
+- Bundle high-margin tech (Laptop + Monitor + Mouse).
+- Offer add-ons (e.g., free setup) vs. deep discounts.
 ---
 
-## 2. Corporate Segment: Niche, Specialized Products
+---
+
+## 2. Corporate Segment: Scalable segments with consistent growth over time. Notably, October 2017 witnessed an all-time high purchase (23K)- surpassing key segment- Consumer. However, spedning dropped sharply afterwward, which ma signal one-off purchase 
 - **Top Products**: 
   - 3D Systems Cube Printer
   - Fellowes Binding Machines
@@ -67,18 +84,40 @@ Despite having a decent revenue stream, the store suffers from low profit margin
 - Create **B2B bulk packages**.
 - Use **value-based pricing**.
 - Implement **Account-Based Marketing (ABM)** targeting design firms, universities, research labs.
+- **Corporate segment breakdown by product categories**
+**Technology** Top performer in recent years; strong batch buying pattern.
+- Revenue grew steadily: $1.7K (Jan 2015) → $4.3K (Jan 2017).
+- Peak: $23.7K on Nov 1, 2017 → 3× YoY.
+**Actions:** Analyze Nov 2017 spike – promo, product launch, or seasonal trend? Target Mar, Sep, Nov with bundle deals (e.g., Laptop + Accessories).
+**Office Supplies** Strong YoY growth; reliable 2nd-best category. $1.0K (Jan 2015) → $5.8K (Jan 2017), doubling YoY.
+- **Outlier:** Aug 2017 hit $14K, despite zero Aug sales in prior years.
 
----
+- **Action:**
 
-## 3. Home Office Segment: Preference for Premium Conferencing Equipment
+- Investigate August anomaly – repeat if demand was cyclical.
+- Launch Sep–Jan back-to-work bundles.
+
+**Furniture:** Lower volume but clear Q4 growth trend. $644 (Jan 2015) → $1.9K (Jan 2017). Dec 2017 peaked at $12.9K – 2× YoY, despite Oct decline.
+
+- **Action:** Focus on Q4 with workspace upgrade bundles. Pair with consulting services (layout, ergonomics) to upsell.
+
+## 3. Home Office Segment:  Moderate buyer with a One-time spike as there was a sudden spike in March 2014 (-20K), the largest transaction ever for this segment. **Action**: Revisit internal campagins or external events from March 2014. 
 - **Top Product**: Cisco TelePresence EX90: **22K sales**  
 **Insight**: Home office users prioritize high-end conferencing gear for professional communication.  
 **Recommendations**: 
 - Position Cisco EX90 as a flagship for remote work.
 - Offer **Premium Home Office Kits** (e.g., chair + video gear).
 - Upsell related products: noise-canceling headsets, sit-stand desks.
-
----
+**Home Office Segment Breakdown By Product Categories**
+**Technology**Rapid growth observed from 2016–2017. Jan 2016 → Sep 2017: $946 → $5.9K → 6× YoY growth. Peak at $19.9K in Sep 2017 (2.5× vs. Sep 2016).
+- Historic outlier: $26K in Mar 2014 — unmatched since.
+**Action:** - Deep-dive into Mar 2014 & Sep 2017 spikes to identify triggers (e.g., promos, B2B deals). Replicate timing and offer structure.
+**Office Supplies** - Spiked in Sep 2016 ($9.2K) but dropped to $5.1K in Sep 2017 and declined further by year-end.
+**Action:**
+- Investigate demand drop — was it saturation, product gaps, or marketing lapse?
+- Leverage high-margin potential with targeted Q3–Q4 campaigns.
+**Furniture** Steady YoY growth, peaking at $12.13K in Nov 2017 — 3× YoY increase.
+**Action:** Position Furniture as a Q4 growth lever. Cross-sell with Office Supplies to lift both categories — especially for SME workspace upgrades.
 
 ## 4. Cross-Segment Insights: Usability & Multi-Functionality Drive Sales
 - **Key Insight**: Usability and multi-functionality are top drivers of sales across segments.  
