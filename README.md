@@ -212,27 +212,51 @@ Flagship products contributing significantly to both **revenue and profitability
 
 - **Cluster 0 – Premium Deal Hunters**  
   Buy only with heavy discounts (~80%). High order value but negative profit. Mostly new customers. Purchase: Appliances, Machines, Binders.
-
+  - **Recommendations**:
+  - Only give extreme discount with limited order size (**flash sale for only one item/per account**)
+  - Build loyal program such as loyalty points (redeem cost) after a sucessful orders
 - **Cluster 1 – Loyal Office Veterans**  
   Long-time customers from the East region. Buy Office Supplies with or without discounts. High monetary, low recent activity.
-
+  - **Recommendations**:
+  - Run a “We Miss You” reactivation campaign.
+  - Offer loyalty tier perks (e.g., free shipping or early access to new products)
+  - Suggest subscription plans for office supplies
 - **Cluster 2 – South Savvy Shoppers**  
   Buy Furniture & Office Supplies from the South. Accept low or no discounts. High profit, better recency.
+-**Recommendations**:
+  - Send product recommendations based on previous furniture & office supply purchases
+  - Introduce referral bonuses to expand customer base in the South
 
 - **Cluster 3 – West Furniture Fans**  
   Furniture buyers from the West. Accept mid-range or no discounts. Good frequency and profit.
+  - **Recommendations**:
+  - Launch seasonal campaigns (e.g., “Spring Workspace Refresh”)
+  - Offer free installation or delivery for frequent buyers
 
 - **Cluster 4 – Stable West Office Buyers**  
   Office Supplies buyers from the West. Prefer <20% discounts or none. Few unprofitable orders, moderate profit.
+    - **Recommendations**:
+    - Promote business accounts with bulk order discounts or dashboards
+    - Add reorder reminders based on past cycles
+  
 
 - **Cluster 5 – Premium Central Buyers**  
   Strong RFM across the board. Buy Office Supplies from Central. High profit, low loss rate, discount-insensitive.
-
+  -**Recommendations**:
+  - Offer VIP loyalty tiers with concierge support, special previews, and quarterly gifts.
+  - Create a customer spotlight program to retain loyalty and collect testimonials.
 - **Cluster 6 – Tech Bargain Spikers**  
   Only buy Technology with deep discounts (~70%). Low R and F, some extreme loss orders.
+  -**Recommendations**:
+  - Tighten discount limits on tech products.
+  - Introduce tech accessory bundles (e.g., mouse, cables) with better margins.
 
 - **Cluster 7 – Frequent Losers**  
   High R and F but low M. Many loss-making orders. Buy Furniture in Central & East with up to 60% discount.
+  -**Recommendations**:
+  -  Only give extreme discount with limited order size (**flash sale for only one item/per account**)
 
 - **Cluster 8 – Golden Newcomers**  
-  New customers with high recency. No discounts used. Buy Office Supplies + Technology. Highest sal
+  New customers with high recency. No discounts used. Buy Office Supplies + Technology. -> Engage their engagement with the brand with loyalty points
+  - **Recommendations**:
+  - New customers "Welcome Kit"
