@@ -1,262 +1,152 @@
-# 🧠 Retail Profit Optimization Project
-# Author: Dinh Thi Thanh Hang
+# 🛒 Retail Profit Optimization — Turning 4 Years of Data into Actionable Strategy
 
-
-This project aims to analyze 4 years of transactional data from a retail store, identify profitability issues, and generate actionable strategies to maximize profit.
+> *A business analytics project that investigates why a profitable retail store isn't as profitable as it should be — and what to do about it.*
 
 ---
 
-## 🔍 Business Context
-- This online retail store sells 3 product categories: Furniture, Office Supplies, Technology for 3 customer segment: Consumer (B2B customer), and B2B customer groups such as Corporate and Home Office. 
-- B2C customer has been purchasing over a long period of time (**Average Customer Tenure/ Active Time= 1434 days**), but B2B (**Average Customer Tenure is around 1000 days**) is relatively new compared to B2C 
-Despite having a decent revenue stream, the store suffers from low profit margins (currently ~12%). Initial analysis shows:
+## 📖 The Story Behind This Project
 
-- Discounts increase quantity purchased (positive Pearson correlation),
-- But they correlate negatively with both revenue and profit,
-- Many loss-making orders are concentrated around:
-  - Discounts > 20%,
-  - Bulk purchases (above 75th percentile in quantity).
+Imagine a retail store selling Furniture, Office Supplies, and Technology to thousands of customers across Consumer, Corporate, and Home Office segments. Revenue looks decent. Orders are coming in. Discounts are flying out.
+
+But profit margins sit at just **~12%**.
+
+Something isn't adding up.
+
+This project digs into **4 years of transactional data** to find out exactly where the money is leaking — and to build a concrete, data-backed strategy to fix it.
+
+---
+
+## 🔍 What We Discovered
+
+The investigation revealed three core problems hiding in plain sight:
+
+**1. Discounts are quietly destroying margins.**
+Discounts above 20% correlate with an average profit loss of **−78.45%** — yet they persist across categories, especially in bulk orders. Many of these loss-making orders cluster around customers who exhibit B2B-like purchasing behavior while operating under B2C discount access.
+
+**2. Not all products are created equal.**
+The top 20% of products drive the vast majority of revenue *and* profit. Meanwhile, popular items like Furniture — despite strong sales volume — carry the lowest margins (~21%) and are frequently over-discounted.
+
+**3. The default customer segments hide behavioral diversity.**
+Standard segments (Consumer, Corporate, Home Office) mask significant variation in purchasing behavior. Some "Consumers" buy like enterprises. Some Corporate accounts are discount-insensitive and highly profitable. A one-size-fits-all promotion strategy leaves money on the table.
 
 ---
 
 ## 🎯 Project Objectives
 
-1. **Optimize Revenue**  
-   - Identify high-performing and high-margin products  
-   - Prioritize scalable products not reliant on discounting
-
-2. **Optimize Marketing Spend (Voucher ROI)**  
-   - Evaluate cost-effectiveness of discounts  
-   - Detect high-discount orders that lead to losses  
-   - Propose refined voucher strategy based on ROI
-
-3. **Segment Customers Based on Behavior**  
-   - Go beyond the default segments (Consumer, Corporate, Home Office)  
-   - Use clustering & PCA to identify behavior-driven customer personas  
-   - Design sales/loyalty programs tailored to each segment
-   - Why K-means Clustering & PCA? -> Some B2B-like consumer customer -> RFM may be bias-> K-means learn customer behaviors & RFM metrics 
-
-## Dashboard Overview 
-
-## Summary Of Insights 
-# Customer Demographics 
-
-## 1. Consumer Segment: Core revenue driven with 4x higher revenue than the other 2 segments, follows a seasonal pattern with peaks in March, May, September, and October. Reached 20K in March 2017, Sep-Oct 2017, May 2016, Sep-Oct 2016, Sep-Oct 2015, Sept 2014
-- **Top Products**: 
-  - Canon imageCLASS 2200 Copier: **33K sales**
-  - HP DesignJet T520 Printer
-  - HON 5400 Series Chairs
-  - GBC Binding Machines
-
-**Insight**: Consumers prioritize multifunctional office equipment and ergonomic furniture.  
-**Recommendations**: 
-- Offer bundle deals (e.g., *Printer + Chair*).
-- Launch seasonal campaigns: *Back to School*, *Work-from-Home Setup*.
-- Consider **subscription models** for consumables.
-
-**Consumer Segment Breakdown By Product Category**
-- **Office Supplies** Sales jumped from <$5K/month (2014–2015) to $19.9K in Jan 2017 – 10x YoY growth. Now contributes 30%+ of consumer revenue during peak months.
-
-- Launch Sep–Jan bundles (e.g., Notebooks + Organizers).
-
-- Target repeat small-ticket buyers and SME bulk orders.
-
-- **Furniture** Revenue spikes in Sep, Oct, Dec (e.g., $22.17K on Dec 1, 2016 vs. $3.6K in Jan).Strong seasonal pattern tied to workspace refresh & holiday sales.
-- Push high-margin Q4 bundles (Desk + Chair).
-- Align promos with major sales events.
-- Avoid discounting low-margin SKUs.
-**Technology**  High-value surges in May & Sep (e.g., $20.7K in May 2016, $23K Oct 2014).Driven by academic cycles and onboarding waves.
-- Retarget students & hybrid workers in Apr/Aug.
-- Bundle high-margin tech (Laptop + Monitor + Mouse).
-- Offer add-ons (e.g., free setup) vs. deep discounts.
----
+| Objective | Approach |
+|---|---|
+| Optimize Revenue | Identify high-margin, scalable products not reliant on discounting |
+| Maximize Discount ROI | Detect loss-making discount patterns; propose tier-based voucher strategy |
+| Understand Customer Behavior | Go beyond default segments using clustering & PCA to surface behavioral personas |
 
 ---
 
-## 2. Corporate Segment: Scalable segments with consistent growth over time. Notably, October 2017 witnessed an all-time high purchase (23K)- surpassing key segment- Consumer. However, spedning dropped sharply afterwward, which ma signal one-off purchase 
-- **Top Products**: 
-  - 3D Systems Cube Printer
-  - Fellowes Binding Machines
-  - Cubify CubeX 3D Printer
+## 🧠 Methodology
 
-**Insight**: Corporate buyers invest in specialized, high-functionality tools for R&D and presentations.  
-**Recommendations**: 
-- Create **B2B bulk packages**.
-- Use **value-based pricing**.
-- Implement **Account-Based Marketing (ABM)** targeting design firms, universities, research labs.
-- **Corporate segment breakdown by product categories**
-**Technology** Top performer in recent years; strong batch buying pattern.
-- Revenue grew steadily: $1.7K (Jan 2015) → $4.3K (Jan 2017).
-- Peak: $23.7K on Nov 1, 2017 → 3× YoY.
-**Actions:** Analyze Nov 2017 spike – promo, product launch, or seasonal trend? Target Mar, Sep, Nov with bundle deals (e.g., Laptop + Accessories).
-  
-**Office Supplies** Strong YoY growth; reliable 2nd-best category. $1.0K (Jan 2015) → $5.8K (Jan 2017), doubling YoY.
-- **Outlier:** Aug 2017 hit $14K, despite zero Aug sales in prior years.
+### Why K-Means Clustering + PCA — Not Just RFM?
 
-- **Action:**
+Traditional RFM (Recency, Frequency, Monetary) scoring works well when customer segments are clearly defined. But when B2C customers behave like B2B buyers, RFM produces biased groupings.
 
-- Investigate August anomaly – repeat if demand was cyclical.
-- Launch Sep–Jan back-to-work bundles.
+**K-Means Clustering** learns directly from behavioral patterns — purchasing frequency, discount sensitivity, product affinity, and regional behavior — without forcing customers into pre-labeled buckets.
 
-**Furniture:** Lower volume but clear Q4 growth trend. $644 (Jan 2015) → $1.9K (Jan 2017). Dec 2017 peaked at $12.9K – 2× YoY, despite Oct decline.
+**PCA (Principal Component Analysis)** reduces dimensionality before clustering, removing noise and ensuring that behavioral signals drive the segmentation rather than correlated variables.
 
-- **Action:** Focus on Q4 with workspace upgrade bundles. Pair with consulting services (layout, ergonomics) to upsell.
-
-## 3. Home Office Segment:  Moderate buyer with a One-time spike as there was a sudden spike in March 2014 (-20K), the largest transaction ever for this segment. **Action**: Revisit internal campagins or external events from March 2014. 
-- **Top Product**: Cisco TelePresence EX90: **22K sales**  
-**Insight**: Home office users prioritize high-end conferencing gear for professional communication.  
-**Recommendations**: 
-- Position Cisco EX90 as a flagship for remote work.
-- Offer **Premium Home Office Kits** (e.g., chair + video gear).
-- Upsell related products: noise-canceling headsets, sit-stand desks.
-**Home Office Segment Breakdown By Product Categories**
-**Technology**Rapid growth observed from 2016–2017. Jan 2016 → Sep 2017: $946 → $5.9K → 6× YoY growth. Peak at $19.9K in Sep 2017 (2.5× vs. Sep 2016).
-- Historic outlier: $26K in Mar 2014 — unmatched since.
-**Action:** - Deep-dive into Mar 2014 & Sep 2017 spikes to identify triggers (e.g., promos, B2B deals). Replicate timing and offer structure.
-  
-**Office Supplies** - Spiked in Sep 2016 ($9.2K) but dropped to $5.1K in Sep 2017 and declined further by year-end.
-**Action:**
-- Investigate demand drop — was it saturation, product gaps, or marketing lapse?
-- Leverage high-margin potential with targeted Q3–Q4 campaigns.
-**Furniture** Steady YoY growth, peaking at $12.13K in Nov 2017 — 3× YoY increase.
-**Action:** Position Furniture as a Q4 growth lever. Cross-sell with Office Supplies to lift both categories — especially for SME workspace upgrades.
-
-## 4. Cross-Segment Insights: Usability & Multi-Functionality Drive Sales
-- **Key Insight**: Usability and multi-functionality are top drivers of sales across segments.  
-- **Niche Tools** like 3D printers and conferencing gear perform well in targeted groups, delivering high ROI per user.  
-**Recommendations**: 
-- **Bundle complementary products** (e.g., ergonomic chair + printer).
-- Focus on **seasonal marketing** during peak months (e.g., back-to-school, Black Friday).
-- Explore **loyalty programs** for repeat customers.
-# Product Insights: 
-1. Top-performing (20% of products that contributes to profit & sales ). Need to scale, and highly focus
-2. Products with high-margin. Try to increase revenue by bundle it with good sales & low-profit margin ones 
-
-# 📉 Discount Campaigns Insights
-
-## 🔍 Overall Findings
-
-- **High Discounts (>20%)** lead to **significant profit loss** (avg. -78.45%) and unsustainable break-even volumes (4,458+ units).  
-  ⛔ Should be eliminated unless clearing old stock.
-
-- **Medium Discounts (10–20%)** offer the **best balance** between sales volume and profitability  
-  ✅ Avg. margin: +17.48% – highest revenue overall.
-
-- **Low Discounts (<10%)** maintain positive margins (15.58%)  
-  ⚠️ But have limited impact on sales volume.
-
-- **No Discount** yields the **highest profit margin** (34.02%) and strong revenue  
-  💰 Many products perform well without promotions.
+The result: **9 distinct behavioral personas** that reveal who your customers really are.
 
 ---
 
-## 🧩 Category-Specific Recommendations
+## 📊 Key Findings
 
-### 🛋️ Furniture
-- Avoid high discounts because Furniture already has lowest profit margin
-- Main customer usually B2B customer, so instead of price, we have to priotize on building relationships such as gifts on special occasion, and after-buy/ after-care service 
-- We can create bundle campaigns to sell Furniture & Office Supplies for Home Offices segment or Corporate as high demand for these two categories in recent year, and 
-Office Supplies has higher profit margin 
+### Discount Analysis
 
-### 🗂️ Office Supplies
-- Avoid high discounts because although Office Supplies have highest profit margin (**29.5%**), many high loss orders come from this category often with discount voucher up to 80% of bulk orders from a segment of consumer exihibit B2B-like purchasing habits and may use the tricks to pass our B2B discount campaign 
+| Discount Tier | Avg. Profit Margin | Business Signal |
+|---|---|---|
+| No Discount | **+34.02%** | Many products perform best without promotions |
+| Low (<10%) | +15.58% | Positive, limited volume impact |
+| Medium (10–20%) | **+17.48%** | Best balance of volume and margin |
+| High (>20%) | **−78.45%** | Significant loss driver — should be eliminated |
 
-### 💻 Technology
-- Can give 5%-10% discount to activate long-time/ churn customer to get them buy again
-- Create campagins such as buy mouse+ monitor+ screen then free installation+ after-care  service 
+> **Recommendation:** Shift acquisition strategy toward medium discounts. Replace high-discount campaigns with loyalty programs and value-added bundles.
+
 ---
 
-## 🚀 Next Steps
+### Category-Level Performance
 
-- 🎯 Shift focus to **Medium Discounts** for customer acquisition.
-- 🔁 Transition to **loyalty programs** to retain customers.
-- 🧠 Analyze:
-  - Which products sell well **without discounts**?
-  - Who uses **high-discount vouchers**? Do they repurchase?
-  - Are **high-voucher products** profitable?
+| Category | Profit Margin | Key Insight |
+|---|---|---|
+| Office Supplies | 29.5% | Highest margin; ideal for bundling and B2B targeting |
+| Technology | ~28.9% | Highest revenue; protect margin by avoiding deep discounts |
+| Furniture | 21.3% | Popular but margin-thin; value perks > price cuts |
 
-- 🧬 Build **personalized campaigns**:
-  - Smart discounts by segment
-  - Value-added incentives
-  - Long-term loyalty programs
+---
 
-## 📊 Product Analysis Insights
+### Customer Personas (K-Means, 9 Clusters)
 
-### 🔹 Category-Level Performance
-- **Office Supplies**: Highest profit margin (**29.5%**). Ideal for bundling and B2B campaigns.
-- **Technology**: Highest revenue generator with strong margin (**~28.9%**). Focused marketing recommended; avoid deep discounts to protect profitability.
-- **Furniture**: Popular but lowest profit margin (**21.3%**). Recommend **value-added perks** (free delivery, installation) instead of discounts.
+| Cluster | Persona | Behavior | Strategy |
+|---|---|---|---|
+| 0 | **Premium Deal Hunters** | Buy only at ~80% discount; new customers; high AOV but negative profit | Flash sales capped at 1 item/account; loyalty point system |
+| 1 | **Loyal Office Veterans** | Long-tenure East region buyers; Office Supplies; low recent activity | "We Miss You" reactivation; subscription plans |
+| 2 | **South Savvy Shoppers** | Furniture & Office Supplies; accept low/no discounts; high profit | Referral programs; personalized product recommendations |
+| 3 | **West Furniture Fans** | Mid-range or no discounts; good frequency and profit | Seasonal campaigns; free installation for repeat buyers |
+| 4 | **Stable West Office Buyers** | Office Supplies; prefer <20% discount or none; few unprofitable orders | Business accounts with bulk dashboards; reorder reminders |
+| 5 | **Premium Central Buyers** | Strong RFM; discount-insensitive; high profit | VIP loyalty tier; quarterly gifts; customer spotlight program |
+| 6 | **Tech Bargain Spikers** | Technology only at ~70% discount; sporadic; some extreme loss orders | Tighten discount caps; accessory bundles with better margins |
+| 7 | **Frequent Losers** | High frequency but many loss-making orders; Furniture + deep discounts | Cap discount per order; remove bulk eligibility |
+| 8 | **Golden Newcomers** | New customers; no discounts; Office Supplies + Technology | Welcome Kit; loyalty point onboarding to drive retention |
 
-### 🔹 Strategic Opportunities
-- Cross-sell **high-margin products** (Office Supplies, Technology) with popular but low-margin items (Furniture).
-- Segment customers by behavior and product interest to tailor **retention & upsell strategies**.
-- Reevaluate Furniture pricing and supply chain costs to **optimize margins** without relying on discounts.
+---
 
-### 🔹 High-Margin, High-Impact Products
-Flagship products contributing significantly to both **revenue and profitability**:
+## 💡 Strategic Recommendations Summary
 
-| Product                            | Revenue   | Profit Margin |
-|------------------------------------|-----------|----------------|
-| Canon imageCLASS 2200              | $123K     | ~38%           |
-| Fellowes PB500 Electric Punch      | $50K      | ~44%           |
-| HP LaserJet 3310                   | $37K      | ~33%           |
-| GBC / Ibico / Ativa Binding Tools  | Varies    | 32–49%         |
+**Revenue**
+- Scale top 20% of products (high-margin + high-revenue) through focused marketing
+- Bundle complementary items: Printer + Chair, Laptop + Monitor + Mouse, Desk + Office Supplies
+- Launch seasonal campaigns tied to peak months: Sep–Oct (back-to-work), Nov–Dec (year-end refresh)
 
-> 💡 These products are ideal for **B2B targeting**, **bundling strategies**, and **campaign prioritization**.
+**Discount Strategy**
+- Eliminate discounts >20% except for deliberate stock-clearance events
+- Implement segment-aware discount caps (e.g., Cluster 0 and 6 require strict limits)
+- Replace discount dependency with loyalty rewards and value-added services (free setup, delivery, installation)
 
-### ✅ Recommended Actions
-- Focus marketing campaigns on top 3 high-margin, high-sales products.
-- Design **smart bundles** to increase AOV using accessories like binders & shredders.
-- Launch **B2B acquisition strategy** targeting enterprises with bulk office equipment needs.
-## 📊 Segment Overview
+**Customer Engagement**
+- Design cluster-specific campaigns rather than blanket promotions
+- Introduce subscription models for repeat office supply buyers (Clusters 1, 4)
+- Build a VIP program for discount-insensitive, high-profit segments (Cluster 5)
+- Re-engage dormant high-value customers (Cluster 1) before acquiring new ones
 
-- **Cluster 0 – Premium Deal Hunters**  
-  Buy only with heavy discounts (~80%). High order value but negative profit. Mostly new customers. Purchase: Appliances, Machines, Binders.
-  - **Recommendations**:
-  - Only give extreme discount with limited order size (**flash sale for only one item/per account**)
-  - Build loyal program such as loyalty points (redeem cost) after a sucessful orders
-- **Cluster 1 – Loyal Office Veterans**  
-  Long-time customers from the East region. Buy Office Supplies with or without discounts. High monetary, low recent activity.
-  - **Recommendations**:
-  - Run a “We Miss You” reactivation campaign.
-  - Offer loyalty tier perks (e.g., free shipping or early access to new products)
-  - Suggest subscription plans for office supplies
-- **Cluster 2 – South Savvy Shoppers**  
-  Buy Furniture & Office Supplies from the South. Accept low or no discounts. High profit, better recency.
--**Recommendations**:
-  - Send product recommendations based on previous furniture & office supply purchases
-  - Introduce referral bonuses to expand customer base in the South
+---
 
-- **Cluster 3 – West Furniture Fans**  
-  Furniture buyers from the West. Accept mid-range or no discounts. Good frequency and profit.
-  - **Recommendations**:
-  - Launch seasonal campaigns (e.g., “Spring Workspace Refresh”)
-  - Offer free installation or delivery for frequent buyers
+## 🗂️ Project Structure
 
-- **Cluster 4 – Stable West Office Buyers**  
-  Office Supplies buyers from the West. Prefer <20% discounts or none. Few unprofitable orders, moderate profit.
-    - **Recommendations**:
-    - Promote business accounts with bulk order discounts or dashboards
-    - Add reorder reminders based on past cycles
-  
+```
+retail-profit-optimization/
+├── data/                  # Transactional dataset (4 years)
+├── notebooks/
+│   ├── 01_eda.ipynb              # Exploratory data analysis
+│   ├── 02_discount_analysis.ipynb # Discount ROI & loss detection
+│   ├── 03_product_analysis.ipynb  # Margin & revenue by product/category
+│   ├── 04_customer_clustering.ipynb # PCA + K-Means segmentation
+│   └── 05_dashboard_summary.ipynb  # Executive summary visuals
+├── outputs/               # Charts, cluster profiles, recommendation decks
+└── README.md
+```
 
-- **Cluster 5 – Premium Central Buyers**  
-  Strong RFM across the board. Buy Office Supplies from Central. High profit, low loss rate, discount-insensitive.
-  -**Recommendations**:
-  - Offer VIP loyalty tiers with concierge support, special previews, and quarterly gifts.
-  - Create a customer spotlight program to retain loyalty and collect testimonials.
-- **Cluster 6 – Tech Bargain Spikers**  
-  Only buy Technology with deep discounts (~70%). Low R and F, some extreme loss orders.
-  -**Recommendations**:
-  - Tighten discount limits on tech products.
-  - Introduce tech accessory bundles (e.g., mouse, cables) with better margins.
+---
 
-- **Cluster 7 – Frequent Losers**  
-  High R and F but low M. Many loss-making orders. Buy Furniture in Central & East with up to 60% discount.
-  -**Recommendations**:
-  -  Only give extreme discount with limited order size (**flash sale for only one item/per account**)
+## 🛠️ Tools & Techniques
 
-- **Cluster 8 – Golden Newcomers**  
-  New customers with high recency. No discounts used. Buy Office Supplies + Technology. -> Engage their engagement with the brand with loyalty points
-  - **Recommendations**:
-  - New customers "Welcome Kit"
+- **Python** — pandas, scikit-learn, matplotlib, seaborn
+- **Clustering** — K-Means with PCA dimensionality reduction
+- **Statistical Analysis** — Pearson correlation, percentile-based outlier detection
+- **Visualization** — Segment dashboards, discount impact charts, RFM heatmaps
+
+---
+
+## 👤 Author
+
+**Dinh Thi Thanh Hang**
+*Business Analytics | Customer Segmentation | Retail Strategy*
+
+---
+
+*This project is part of a portfolio series on applied data analytics for business decision-making.*
