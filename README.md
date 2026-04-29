@@ -1,152 +1,209 @@
-# 🛒 Retail Profit Optimization — Turning 4 Years of Data into Actionable Strategy
+# Retail Profit Optimization — From Transactional Data to Strategic Decisions
 
-> *A business analytics project that investigates why a profitable retail store isn't as profitable as it should be — and what to do about it.*
-
----
-
-## 📖 The Story Behind This Project
-
-Imagine a retail store selling Furniture, Office Supplies, and Technology to thousands of customers across Consumer, Corporate, and Home Office segments. Revenue looks decent. Orders are coming in. Discounts are flying out.
-
-But profit margins sit at just **~12%**.
-
-Something isn't adding up.
-
-This project digs into **4 years of transactional data** to find out exactly where the money is leaking — and to build a concrete, data-backed strategy to fix it.
+> 4 years · 3 product categories · 3 customer segments · ~12% profit margin that shouldn't be this low
 
 ---
 
-## 🔍 What We Discovered
+## Executive Summary
 
-The investigation revealed three core problems hiding in plain sight:
+A retail store with healthy order volume and consistent revenue was quietly underperforming on profit. This project investigates *why* — and builds a data-backed roadmap to fix it.
 
-**1. Discounts are quietly destroying margins.**
-Discounts above 20% correlate with an average profit loss of **−78.45%** — yet they persist across categories, especially in bulk orders. Many of these loss-making orders cluster around customers who exhibit B2B-like purchasing behavior while operating under B2C discount access.
+**The core finding:** margin erosion is not a product problem. It is a discount and customer management problem.
 
-**2. Not all products are created equal.**
-The top 20% of products drive the vast majority of revenue *and* profit. Meanwhile, popular items like Furniture — despite strong sales volume — carry the lowest margins (~21%) and are frequently over-discounted.
+Three patterns emerged from four years of transactional data:
 
-**3. The default customer segments hide behavioral diversity.**
-Standard segments (Consumer, Corporate, Home Office) mask significant variation in purchasing behavior. Some "Consumers" buy like enterprises. Some Corporate accounts are discount-insensitive and highly profitable. A one-size-fits-all promotion strategy leaves money on the table.
+- **Discounts above 20% destroy margins systematically.** Orders in this tier average −78% profit. They are concentrated among a specific behavioral subset of customers — not distributed randomly across the base.
+- **The top 20% of products account for a disproportionate share of both revenue and profit.** The remaining 80% are drag — many subsidized by discounts that were never designed to generate returns.
+- **Standard customer segments (Consumer, Corporate, Home Office) obscure actionable behavioral differences.** When segmented by actual purchasing behavior, nine distinct personas emerge — each with a different relationship to discounting, product preference, and lifetime value.
+
+**Business impact of recommendations, if implemented:**
+- Eliminating high-discount orders is projected to recover margin on a significant portion of currently loss-making revenue
+- Redirecting discount budget toward loyalty and bundling programs targets retention over acquisition, improving LTV
+- Segment-specific campaigns replace blanket promotions, reducing wasted spend on customers who convert without incentives
 
 ---
 
-## 🎯 Project Objectives
+## The Problem
 
-| Objective | Approach |
+Despite stable order volumes across Consumer, Corporate, and Home Office segments, the store's net profit margin sits at approximately **12%** — well below industry benchmarks for a diversified retail operation.
+
+Initial correlation analysis pointed to a clear culprit:
+
+- Discount depth has a **positive correlation with quantity purchased** — discounts do drive volume
+- But discount depth has a **negative correlation with both revenue and profit** — the volume gains do not offset the margin destruction
+
+This is a textbook voucher mismanagement problem. The store is trading profit for orders that would not have been worth taking at full economics.
+
+The question was: *which orders, which customers, and which products are driving the losses?*
+
+---
+
+## Methodology
+
+### Data Scope
+Four years of transaction-level retail data covering order value, discount applied, product category, quantity, profit, customer ID, segment label, and region.
+
+### Analytical Approach
+
+| Question | Method |
 |---|---|
-| Optimize Revenue | Identify high-margin, scalable products not reliant on discounting |
-| Maximize Discount ROI | Detect loss-making discount patterns; propose tier-based voucher strategy |
-| Understand Customer Behavior | Go beyond default segments using clustering & PCA to surface behavioral personas |
+| Where are losses concentrated? | Percentile analysis on discount tiers; loss-order flagging at >75th percentile quantity |
+| Which products drive margin vs. revenue? | Category-level and SKU-level margin decomposition |
+| Who are the real customer segments? | K-Means clustering on behavioral RFM + discount features, with PCA dimensionality reduction |
+
+### Why K-Means + PCA Instead of RFM Alone?
+
+Standard RFM (Recency, Frequency, Monetary) segmentation assumes customers within the same commercial label behave similarly. The data contradicted this: a subset of Consumer-tagged accounts displayed B2B-like bulk purchasing behavior, artificially inflating the segment's loss rate.
+
+K-Means clustering — applied after PCA reduced feature noise — learns segment boundaries directly from behavior. The result is nine clusters defined not by how customers were labeled, but by what they actually do: what they buy, how often, at what discount depth, and how profitably.
 
 ---
 
-## 🧠 Methodology
+## Key Findings
 
-### Why K-Means Clustering + PCA — Not Just RFM?
+### 1. Discount Tier Analysis
 
-Traditional RFM (Recency, Frequency, Monetary) scoring works well when customer segments are clearly defined. But when B2C customers behave like B2B buyers, RFM produces biased groupings.
-
-**K-Means Clustering** learns directly from behavioral patterns — purchasing frequency, discount sensitivity, product affinity, and regional behavior — without forcing customers into pre-labeled buckets.
-
-**PCA (Principal Component Analysis)** reduces dimensionality before clustering, removing noise and ensuring that behavioral signals drive the segmentation rather than correlated variables.
-
-The result: **9 distinct behavioral personas** that reveal who your customers really are.
-
----
-
-## 📊 Key Findings
-
-### Discount Analysis
-
-| Discount Tier | Avg. Profit Margin | Business Signal |
-|---|---|---|
-| No Discount | **+34.02%** | Many products perform best without promotions |
-| Low (<10%) | +15.58% | Positive, limited volume impact |
-| Medium (10–20%) | **+17.48%** | Best balance of volume and margin |
-| High (>20%) | **−78.45%** | Significant loss driver — should be eliminated |
-
-> **Recommendation:** Shift acquisition strategy toward medium discounts. Replace high-discount campaigns with loyalty programs and value-added bundles.
-
----
-
-### Category-Level Performance
-
-| Category | Profit Margin | Key Insight |
-|---|---|---|
-| Office Supplies | 29.5% | Highest margin; ideal for bundling and B2B targeting |
-| Technology | ~28.9% | Highest revenue; protect margin by avoiding deep discounts |
-| Furniture | 21.3% | Popular but margin-thin; value perks > price cuts |
-
----
-
-### Customer Personas (K-Means, 9 Clusters)
-
-| Cluster | Persona | Behavior | Strategy |
+| Tier | Avg. Profit Margin | Revenue Share | Verdict |
 |---|---|---|---|
-| 0 | **Premium Deal Hunters** | Buy only at ~80% discount; new customers; high AOV but negative profit | Flash sales capped at 1 item/account; loyalty point system |
-| 1 | **Loyal Office Veterans** | Long-tenure East region buyers; Office Supplies; low recent activity | "We Miss You" reactivation; subscription plans |
-| 2 | **South Savvy Shoppers** | Furniture & Office Supplies; accept low/no discounts; high profit | Referral programs; personalized product recommendations |
-| 3 | **West Furniture Fans** | Mid-range or no discounts; good frequency and profit | Seasonal campaigns; free installation for repeat buyers |
-| 4 | **Stable West Office Buyers** | Office Supplies; prefer <20% discount or none; few unprofitable orders | Business accounts with bulk dashboards; reorder reminders |
-| 5 | **Premium Central Buyers** | Strong RFM; discount-insensitive; high profit | VIP loyalty tier; quarterly gifts; customer spotlight program |
-| 6 | **Tech Bargain Spikers** | Technology only at ~70% discount; sporadic; some extreme loss orders | Tighten discount caps; accessory bundles with better margins |
-| 7 | **Frequent Losers** | High frequency but many loss-making orders; Furniture + deep discounts | Cap discount per order; remove bulk eligibility |
-| 8 | **Golden Newcomers** | New customers; no discounts; Office Supplies + Technology | Welcome Kit; loyalty point onboarding to drive retention |
+| No discount | **+34.0%** | High | Many products need no promotion to sell |
+| Low (< 10%) | +15.6% | Moderate | Sustainable; limited incremental volume effect |
+| Medium (10–20%) | **+17.5%** | Highest | Optimal zone — best balance of volume and margin |
+| High (> 20%) | **−78.5%** | Significant | Systematic loss driver; must be restructured |
+
+High-discount orders are not an edge case. They represent a meaningful share of total revenue — and nearly all of the profit destruction.
+
+### 2. Category-Level Performance
+
+| Category | Profit Margin | Revenue Rank | Strategic Note |
+|---|---|---|---|
+| Office Supplies | 29.5% | 2nd | Highest margin; strong bundling potential |
+| Technology | ~28.9% | 1st | Highest revenue; margin at risk from over-discounting |
+| Furniture | 21.3% | 3rd | Lowest margin; discount dependency accelerates losses |
+
+Furniture is the most structurally vulnerable category: already the thinnest margins, and disproportionately represented in high-discount and loss-making orders. Discount reduction here has the fastest margin recovery potential.
+
+### 3. Top Revenue-Generating Products (by sales)
+
+| Product | Revenue | Category |
+|---|---|---|
+| Canon imageCLASS 2200 Copier | $123K | Technology |
+| HP DesignJet T520 Printer | — | Technology |
+| HON 5400 Series Chairs | — | Furniture |
+| Fellowes PB500 Electric Punch | $50K | Office Supplies |
+| GBC / Ibico Binding Tools | Varies | Office Supplies |
+
+High-revenue products are not always high-margin products. Bundling high-revenue items with high-margin complements (e.g., printer + binders + consumables) increases average order value without requiring additional discount spend.
 
 ---
 
-## 💡 Strategic Recommendations Summary
+## Customer Segmentation
 
-**Revenue**
-- Scale top 20% of products (high-margin + high-revenue) through focused marketing
-- Bundle complementary items: Printer + Chair, Laptop + Monitor + Mouse, Desk + Office Supplies
-- Launch seasonal campaigns tied to peak months: Sep–Oct (back-to-work), Nov–Dec (year-end refresh)
-
-**Discount Strategy**
-- Eliminate discounts >20% except for deliberate stock-clearance events
-- Implement segment-aware discount caps (e.g., Cluster 0 and 6 require strict limits)
-- Replace discount dependency with loyalty rewards and value-added services (free setup, delivery, installation)
-
-**Customer Engagement**
-- Design cluster-specific campaigns rather than blanket promotions
-- Introduce subscription models for repeat office supply buyers (Clusters 1, 4)
-- Build a VIP program for discount-insensitive, high-profit segments (Cluster 5)
-- Re-engage dormant high-value customers (Cluster 1) before acquiring new ones
+Nine behavioral clusters were identified. For strategic execution, they are grouped into four actionable cohorts based on shared characteristics, discount behavior, and recommended intervention type.
 
 ---
 
-## 🗂️ Project Structure
+### Cohort A — Protect and Grow (Clusters 1, 4, 5)
+
+**Who they are:** Long-tenure customers with strong purchasing history, low discount dependency, and consistently profitable orders. Primarily purchase Office Supplies. Distributed across East, West, and Central regions.
+
+**Behavioral signal:** These customers convert without deep discounts. Many are showing declining recency — not because they churned, but because they have not been given a reason to return.
+
+**Risk:** Neglect. This cohort generates reliable profit and receives the least targeted attention precisely because they do not create problems.
+
+**Strategy:**
+- Launch a tiered loyalty program with perks that reinforce behavior already observed: early access, reorder reminders, free shipping thresholds — not cash discounts
+- For the highest-RFM cluster (Cluster 5, Central region): offer VIP account management, quarterly business reviews, and product previews
+- Reactivation sequence for lapsed buyers (Cluster 1): value-led re-engagement, not promotional — remind them of what they bought, suggest logical next purchases
+
+---
+
+### Cohort B — Convert Before They Drain Margin (Clusters 0, 6, 7)
+
+**Who they are:** Customers who only purchase under heavy discount conditions — 60–80% discount depth — with a mix of new accounts and high-frequency buyers. Orders in this cohort are responsible for the majority of loss-making transactions. Cluster 7 is particularly notable: high recency and frequency, but nearly every order is unprofitable.
+
+**Behavioral signal:** These customers are arbitraging the discount system, not responding to brand or product value. Cluster 0 tends toward new accounts with high AOV; Cluster 6 is Technology-specific; Cluster 7 is the most operationally damaging — frequent buyers generating consistent losses.
+
+**Risk:** Continued unstructured access to deep discounts will compound margin destruction as frequency increases.
+
+**Strategy:**
+- Implement hard caps on discount depth and order quantity per account (e.g., flash sale access limited to one item per account, applied once per quarter)
+- Introduce a points-based loyalty system where discount access is earned through profitable order history — not available by default
+- For Cluster 7 specifically: trigger a margin-floor rule at the order level; any order projected to generate negative margin at > 40% discount depth is flagged for manual review before fulfilment
+- Do not invest in retention campaigns for this cohort until buying behavior normalizes
+
+---
+
+### Cohort C — Expand in the Right Markets (Clusters 2, 3)
+
+**Who they are:** Regionally concentrated buyers (South and West) purchasing Furniture and Office Supplies with low or no discount usage. Good recency, above-average profit per order.
+
+**Behavioral signal:** These customers demonstrate willingness to pay near-full price. They are likely under-served in terms of product range and cross-sell exposure — they buy what they know, not what they could benefit from.
+
+**Risk:** Untapped revenue. This cohort's order frequency and AOV could both increase with targeted product exposure.
+
+**Strategy:**
+- Deploy personalized product recommendation sequences based on past purchases — if a customer bought a desk, surface ergonomic chairs, monitor arms, and storage within 30–60 days
+- Launch regional seasonal campaigns: workspace refresh (Q1), back-to-work (Q3), year-end office upgrade (Q4)
+- Introduce referral incentives to expand the customer base in South and West regions — these customers are the profile worth replicating
+- Offer value-added services (free delivery, installation, layout consultation) as retention levers in lieu of discounts
+
+---
+
+### Cohort D — Activate Carefully (Cluster 8)
+
+**Who they are:** New customers with strong recency. No discount usage observed. Purchase mix spans Office Supplies and Technology. High potential lifetime value if engaged correctly in the first 90 days.
+
+**Behavioral signal:** These customers arrived without discount incentives and made a first purchase. That is the highest-quality acquisition signal in the dataset. The risk is post-purchase inertia — they buy once and drift.
+
+**Risk:** Losing high-quality new customers to inactivity because there is no structured onboarding journey.
+
+**Strategy:**
+- Deploy a structured 90-day onboarding sequence: welcome communication at day 1, product education at day 14, cross-sell recommendation at day 30, loyalty enrollment prompt at day 60
+- Introduce a welcome loyalty points grant on the first order — activates the points system early without requiring a discount
+- Track 90-day repeat purchase rate as the primary KPI for this cohort; adjust onboarding sequence based on conversion data
+
+---
+
+## Strategic Recommendations Summary
+
+**On discounting:**
+Eliminate discount tiers above 20% except for planned inventory clearance events with defined SKU scope and volume limits. Redirect discount budget toward loyalty mechanics and value-added services, which generate retention at lower cost-to-margin.
+
+**On product strategy:**
+Scale marketing investment in the top 20% of products by margin contribution. Design bundle architectures that pair high-revenue items (Technology hardware) with high-margin complements (Office Supplies consumables, accessories). Avoid leading with Furniture in promotional campaigns — protect the category by leading with service differentiation instead.
+
+**On customer management:**
+Implement segment-specific intervention playbooks for each of the four cohorts above. Measure success not by order volume, but by margin per cohort and cohort migration rate (customers moving from Cohort B behavior to Cohort A behavior over 12 months).
+
+---
+
+## Repository Structure
 
 ```
 retail-profit-optimization/
-├── data/                  # Transactional dataset (4 years)
+├── data/
+│   └── transactions_4yr.csv
 ├── notebooks/
-│   ├── 01_eda.ipynb              # Exploratory data analysis
-│   ├── 02_discount_analysis.ipynb # Discount ROI & loss detection
-│   ├── 03_product_analysis.ipynb  # Margin & revenue by product/category
-│   ├── 04_customer_clustering.ipynb # PCA + K-Means segmentation
-│   └── 05_dashboard_summary.ipynb  # Executive summary visuals
-├── outputs/               # Charts, cluster profiles, recommendation decks
-└── README.md
+│   ├── 01_eda.ipynb                   # Exploratory data analysis & correlation mapping
+│   ├── 02_discount_analysis.ipynb     # Discount tier segmentation & loss-order detection
+│   ├── 03_product_analysis.ipynb      # SKU and category-level margin decomposition
+│   ├── 04_customer_clustering.ipynb   # PCA + K-Means segmentation pipeline
+│   └── 05_summary_dashboard.ipynb     # Executive-facing visual summary
+└── outputs/
+    ├── cluster_profiles/
+    ├── discount_impact_charts/
+    └── margin_by_category/
 ```
 
 ---
 
-## 🛠️ Tools & Techniques
+## Tools & Methods
 
-- **Python** — pandas, scikit-learn, matplotlib, seaborn
-- **Clustering** — K-Means with PCA dimensionality reduction
-- **Statistical Analysis** — Pearson correlation, percentile-based outlier detection
-- **Visualization** — Segment dashboards, discount impact charts, RFM heatmaps
-
----
-
-## 👤 Author
-
-**Dinh Thi Thanh Hang**
-*Business Analytics | Customer Segmentation | Retail Strategy*
+- **Python** — pandas, NumPy, scikit-learn, matplotlib, seaborn
+- **Clustering** — K-Means with PCA preprocessing (feature noise reduction prior to clustering)
+- **Statistical analysis** — Pearson correlation, percentile-based outlier detection, break-even volume modeling
+- **Segmentation** — Behavioral RFM construction, cluster profiling, cohort strategy mapping
 
 ---
 
-*This project is part of a portfolio series on applied data analytics for business decision-making.*
+*Project by Dinh Thi Thanh Hang — Business Analytics Portfolio*
