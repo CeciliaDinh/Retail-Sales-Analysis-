@@ -1,10 +1,6 @@
 # 🧠 Retail Profit Optimization & Customer Segmentation Analysis
 **Author:** Dinh Thi Thanh Hang  
 
-![Data Analysis](https://img.shields.io/badge/Data-Analysis-blue?style=for-the-badge)
-![Clustering](https://img.shields.io/badge/Machine_Learning-K--Means_&_PCA-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-
 ## 📑 Executive Summary
 This project analyzes 4 years of transactional data from a retail store to identify profitability leaks and generate actionable, data-driven strategies. 
 
